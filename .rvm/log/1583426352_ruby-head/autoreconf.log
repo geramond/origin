@@ -1,0 +1,9 @@
+[2020-03-05 19:54:33] __rvm_autoreconf
+__rvm_autoreconf () 
+{ 
+    \autoreconf "$@" || return $?
+}
+current path: /home/maksim/.rvm/src/ruby-head
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/maksim/.rvm/bin:/home/maksim/.rvm/bin
+command(1): __rvm_autoreconf
+++ autoreconf

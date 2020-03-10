@@ -1,0 +1,1324 @@
+[2020-03-05 19:56:07] __rvm_make
+__rvm_make () 
+{ 
+    \make "$@" || return $?
+}
+current path: /home/maksim/.rvm/src/ruby-head
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/maksim/.rvm/bin:/home/maksim/.rvm/bin
+command(2): __rvm_make -j1
+++ make -j1
+	BASERUBY = /home/maksim/.rvm/wrappers/ruby-2.7.0-preview1/ruby --disable=gems
+	CC = gcc
+	LD = ld
+	LDSHARED = gcc -shared
+	CFLAGS = -O3 -ggdb3 -Wall -Wextra -Werror=deprecated-declarations -Werror=duplicated-cond -Werror=implicit-function-declaration -Werror=implicit-int -Werror=misleading-indentation -Werror=pointer-arith -Werror=write-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -std=gnu99  -fPIC 
+	XCFLAGS = -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fno-strict-overflow -DRUBY_DEVEL=1 -fvisibility=hidden -fexcess-precision=standard -DRUBY_EXPORT -DCANONICALIZATION_FOR_MATHN -I. -I.ext/include/x86_64-linux -I./include -I. -I./enc/unicode/12.1.0
+	CPPFLAGS =   
+	DLDFLAGS = -Wl,--compress-debug-sections=zlib -Wl,-soname,libruby.so.2.8  -fstack-protector-strong  
+	SOLIBS = -lz -lpthread -lrt -lrt -lgmp -ldl -lcrypt -lm 
+	LANG = en_US.UTF-8
+	LC_ALL = 
+	LC_CTYPE = 
+	MFLAGS = -j1
+gcc (Ubuntu 9.2.1-9ubuntu2) 9.2.1 20191008
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+compiling ./main.c
+compiling dmydln.c
+generating id.h
+id.h updated
+generating miniprelude.c
+miniprelude.c updated
+compiling miniinit.c
+compiling dmyext.c
+making array.rbinc
+/home/maksim/.rvm/wrappers/ruby-2.7.0-preview1/ruby --disable=gems ./tool/gen_dummy_probes.rb ./probes.d > probes.dmyh
+making dummy probes.h
+compiling array.c
+making ast.rbinc
+compiling ast.c
+compiling bignum.c
+compiling class.c
+compiling compar.c
+generating opt_sc.inc
+generating optunifs.inc
+generating insns.inc
+generating insns_info.inc
+generating optinsn.inc
+compiling compile.c
+compiling complex.c
+compiling cont.c
+compiling debug.c
+compiling debug_counter.c
+compiling dir.c
+compiling dln_find.c
+compiling encoding.c
+compiling enum.c
+compiling enumerator.c
+generating known_errors.inc
+known_errors.inc updated
+making warning.rbinc
+compiling error.c
+compiling eval.c
+compiling file.c
+making gc.rbinc
+compiling gc.c
+compiling hash.c
+making prelude.rbinc
+compiling inits.c
+making io.rbinc
+compiling io.c
+generating node_name.inc
+compiling iseq.c
+compiling load.c
+compiling marshal.c
+compiling math.c
+making mjit_config.h
+compiling mjit.c
+generating mjit_compile.inc
+compiling mjit_compile.c
+compiling node.c
+compiling numeric.c
+compiling object.c
+making pack.rbinc
+compiling pack.c
+generating parse.c
+copying lex.c
+compiling parse.c
+compiling proc.c
+compiling process.c
+compiling random.c
+compiling range.c
+compiling rational.c
+compiling re.c
+compiling regcomp.c
+compiling regenc.c
+compiling regerror.c
+compiling regexec.c
+compiling regparse.c
+compiling regsyntax.c
+compiling ruby.c
+compiling signal.c
+compiling sprintf.c
+compiling st.c
+compiling strftime.c
+compiling string.c
+compiling struct.c
+generating id.c
+id.c updated
+compiling symbol.c
+compiling thread.c
+compiling time.c
+compiling transcode.c
+compiling transient_heap.c
+compiling util.c
+compiling variable.c
+./revision.h updated
+compiling version.c
+generating vm.inc
+generating vm_call_iseq_optimized.inc
+generating vmtc.inc
+compiling vm.c
+compiling vm_backtrace.c
+compiling vm_dump.c
+making trace_point.rbinc
+compiling vm_trace.c
+assembling coroutine/amd64/Context.S
+compiling enc/ascii.c
+compiling enc/us_ascii.c
+compiling enc/unicode.c
+compiling enc/utf_8.c
+generating enc/trans/newline.c ...
+converter for universal_newline
+converter for crlf_newline
+converter for cr_newline
+done.  (0.14user 0.01system 0.02elapsed)
+compiling enc/trans/newline.c
+compiling ./missing/setproctitle.c
+compiling ./missing/strlcat.c
+compiling ./missing/strlcpy.c
+compiling addr2line.c
+compiling dmyenc.c
+linking miniruby
+/usr/bin/mkdir -p enc/jis
++ cp enc/jis/props.h.blt enc/jis/props.h
+generating encdb.h
+encdb.h updated
+./tool/ifchange "--timestamp=.rbconfig.time" rbconfig.rb rbconfig.tmp
+rbconfig.rb updated
+generating enc.mk
+making srcs under enc
+make[1]: Entering directory '/home/maksim/.rvm/src/ruby-head'
+generating table from enc/trans/big5.c
+generating enc/trans/big5.c ...
+converter from Big5 to UTF-8
+converter from UTF-8 to Big5
+converter from CP950 to UTF-8
+converter from UTF-8 to CP950
+converter from Big5-HKSCS to UTF-8
+converter from UTF-8 to Big5-HKSCS
+converter from CP951 to UTF-8
+converter from UTF-8 to CP951
+converter from Big5-UAO to UTF-8
+converter from UTF-8 to Big5-UAO
+done.  (13.93user 0.09system 13.97elapsed)
+generating table from enc/trans/cesu_8.c
+generating enc/trans/cesu_8.c ...
+converter for from_CESU_8
+converter for to_CESU_8
+done.  (0.13user 0.01system 0.03elapsed)
+generating table from enc/trans/chinese.c
+generating enc/trans/chinese.c ...
+load mapsrc enc/trans/GB/GB2312%UCS.src
+converter from GB2312 to UTF-8
+load mapsrc enc/trans/GB/GB12345%UCS.src
+converter from GB12345 to UTF-8
+load mapsrc enc/trans/GB/UCS%GB2312.src
+converter from UTF-8 to GB2312
+load mapsrc enc/trans/GB/UCS%GB12345.src
+converter from UTF-8 to GB12345
+done.  (3.25user 0.04system 3.19elapsed)
+generating table from enc/trans/ebcdic.c
+generating enc/trans/ebcdic.c ...
+converter from IBM037 to ISO-8859-1
+converter from ISO-8859-1 to IBM037
+done.  (0.14user 0.01system 0.05elapsed)
+generating table from enc/trans/emoji.c
+generating enc/trans/emoji.c ...
+converter from UTF8-DoCoMo to UTF8-KDDI
+converter from UTF8-DoCoMo to UTF8-SoftBank
+converter from UTF8-DoCoMo to UTF-8
+converter from UTF8-KDDI to UTF8-DoCoMo
+converter from UTF8-KDDI to UTF8-SoftBank
+converter from UTF8-KDDI to UTF-8
+converter from UTF8-SoftBank to UTF8-DoCoMo
+converter from UTF8-SoftBank to UTF8-KDDI
+converter from UTF8-SoftBank to UTF-8
+converter from UTF-8 to UTF8-DoCoMo
+converter from UTF-8 to UTF8-KDDI
+converter from UTF-8 to UTF8-SoftBank
+done.  (0.95user 0.02system 0.88elapsed)
+generating table from enc/trans/emoji_iso2022_kddi.c
+generating enc/trans/emoji_iso2022_kddi.c ...
+converter for iso2022jp_kddi_decoder
+converter for iso2022jp_kddi_decoder_jisx0208_rest
+converter for iso2022jp_kddi_encoder
+load mapsrc enc/trans/EMOJI/EMOJI_ISO-2022-JP-KDDI%UCS.src
+load mapsrc enc/trans/JIS/JISX0208VDC@NEC%UCS.src
+load mapsrc enc/trans/CP/CP932VDC@NEC_IBM%UCS.src
+load mapsrc enc/trans/CP/CP932VDC@IBM%UCS.src
+load mapsrc enc/trans/JIS/JISX0208@MS%UCS.src
+converter from stateless-ISO-2022-JP-KDDI to UTF8-KDDI
+load mapsrc enc/trans/EMOJI/UCS%EMOJI_ISO-2022-JP-KDDI.src
+load mapsrc enc/trans/EMOJI/UCS%EMOJI_ISO-2022-JP-KDDI-UNDOC.src
+load mapsrc enc/trans/JIS/UCS%JISX0208VDC@NEC.src
+load mapsrc enc/trans/CP/UCS%CP932VDC@NEC_IBM.src
+load mapsrc enc/trans/CP/UCS%CP932VDC@IBM.src
+load mapsrc enc/trans/JIS/UCS%JISX0208@MS.src
+converter from UTF8-KDDI to stateless-ISO-2022-JP-KDDI
+done.  (1.96user 0.03system 1.89elapsed)
+generating table from enc/trans/emoji_sjis_docomo.c
+generating enc/trans/emoji_sjis_docomo.c ...
+load mapsrc enc/trans/JIS/JISX0201-KANA%UCS.src
+load mapsrc enc/trans/EMOJI/EMOJI_SHIFT_JIS-DOCOMO%UCS.src
+load mapsrc enc/trans/JIS/JISX0208VDC@NEC%UCS.src
+load mapsrc enc/trans/CP/CP932VDC@NEC_IBM%UCS.src
+load mapsrc enc/trans/CP/CP932VDC@IBM%UCS.src
+load mapsrc enc/trans/CP/CP932UDA%UCS.src
+load mapsrc enc/trans/JIS/JISX0208@MS%UCS.src
+converter from SJIS-DOCOMO to UTF8-DOCOMO
+load mapsrc enc/trans/JIS/UCS%JISX0201-KANA.src
+load mapsrc enc/trans/EMOJI/UCS%EMOJI_SHIFT_JIS-DOCOMO.src
+load mapsrc enc/trans/JIS/UCS%JISX0208VDC@NEC.src
+load mapsrc enc/trans/CP/UCS%CP932VDC@NEC_IBM.src
+load mapsrc enc/trans/CP/UCS%CP932VDC@IBM.src
+load mapsrc enc/trans/CP/UCS%CP932UDA.src
+load mapsrc enc/trans/JIS/UCS%JISX0208@MS.src
+converter from UTF8-DOCOMO to SJIS-DOCOMO
+done.  (2.19user 0.04system 2.14elapsed)
+generating table from enc/trans/emoji_sjis_kddi.c
+generating enc/trans/emoji_sjis_kddi.c ...
+load mapsrc enc/trans/JIS/JISX0201-KANA%UCS.src
+load mapsrc enc/trans/EMOJI/EMOJI_SHIFT_JIS-KDDI%UCS.src
+load mapsrc enc/trans/JIS/JISX0208VDC@NEC%UCS.src
+load mapsrc enc/trans/CP/CP932VDC@NEC_IBM%UCS.src
+load mapsrc enc/trans/CP/CP932VDC@IBM%UCS.src
+load mapsrc enc/trans/CP/CP932UDA%UCS.src
+load mapsrc enc/trans/JIS/JISX0208@MS%UCS.src
+converter from SJIS-KDDI to UTF8-KDDI
+load mapsrc enc/trans/JIS/UCS%JISX0201-KANA.src
+load mapsrc enc/trans/EMOJI/UCS%EMOJI_SHIFT_JIS-KDDI.src
+load mapsrc enc/trans/EMOJI/UCS%EMOJI_SHIFT_JIS-KDDI-UNDOC.src
+load mapsrc enc/trans/JIS/UCS%JISX0208VDC@NEC.src
+load mapsrc enc/trans/CP/UCS%CP932VDC@NEC_IBM.src
+load mapsrc enc/trans/CP/UCS%CP932VDC@IBM.src
+load mapsrc enc/trans/CP/UCS%CP932UDA.src
+load mapsrc enc/trans/JIS/UCS%JISX0208@MS.src
+converter from UTF8-KDDI to SJIS-KDDI
+done.  (2.55user 0.04system 2.48elapsed)
+generating table from enc/trans/emoji_sjis_softbank.c
+generating enc/trans/emoji_sjis_softbank.c ...
+load mapsrc enc/trans/JIS/JISX0201-KANA%UCS.src
+load mapsrc enc/trans/EMOJI/EMOJI_SHIFT_JIS-SOFTBANK%UCS.src
+load mapsrc enc/trans/JIS/JISX0208VDC@NEC%UCS.src
+load mapsrc enc/trans/CP/CP932VDC@NEC_IBM%UCS.src
+load mapsrc enc/trans/CP/CP932VDC@IBM%UCS.src
+load mapsrc enc/trans/CP/CP932UDA%UCS.src
+load mapsrc enc/trans/JIS/JISX0208@MS%UCS.src
+converter from SJIS-SoftBank to UTF8-SoftBank
+load mapsrc enc/trans/JIS/UCS%JISX0201-KANA.src
+load mapsrc enc/trans/EMOJI/UCS%EMOJI_SHIFT_JIS-SOFTBANK.src
+load mapsrc enc/trans/JIS/UCS%JISX0208VDC@NEC.src
+load mapsrc enc/trans/CP/UCS%CP932VDC@NEC_IBM.src
+load mapsrc enc/trans/CP/UCS%CP932VDC@IBM.src
+load mapsrc enc/trans/CP/UCS%CP932UDA.src
+load mapsrc enc/trans/JIS/UCS%JISX0208@MS.src
+converter from UTF8-SoftBank to SJIS-SoftBank
+done.  (2.36user 0.03system 2.28elapsed)
+generating table from enc/trans/escape.c
+generating enc/trans/escape.c ...
+converter for amp_escape
+converter for xml_text_escape
+converter for xml_attr_content_escape
+converter for escape_xml_attr_quote
+done.  (0.12user 0.01system 0.02elapsed)
+generating table from enc/trans/gb18030.c
+generating enc/trans/gb18030.c ...
+converter from GB18030 to UTF-8
+converter from UTF-8 to GB18030
+done.  (8.14user 0.12system 8.23elapsed)
+generating table from enc/trans/gbk.c
+generating enc/trans/gbk.c ...
+converter from GBK to UTF-8
+converter from UTF-8 to GBK
+done.  (3.39user 0.03system 3.32elapsed)
+generating table from enc/trans/iso2022.c
+generating enc/trans/iso2022.c ...
+converter for iso2022jp_decoder
+converter for iso2022jp_decoder_jisx0208_rest
+converter for iso2022jp_encoder
+converter for stateless_iso2022jp_to_eucjp
+converter for eucjp_to_stateless_iso2022jp
+converter for cp50221_decoder
+converter for cp50221_encoder
+done.  (0.15user 0.01system 0.06elapsed)
+generating table from enc/trans/japanese.c
+generating enc/trans/japanese.c ...
+converter for eucjp2sjis
+converter for sjis2eucjp
+done.  (0.12user 0.01system 0.02elapsed)
+generating table from enc/trans/japanese_euc.c
+generating enc/trans/japanese_euc.c ...
+load mapsrc enc/trans/JIS/JISX0208@1990%UCS.src
+load mapsrc enc/trans/JIS/JISX0201-KANA%UCS.src
+load mapsrc enc/trans/JIS/JISX0212%UCS.src
+converter from EUC-JP to UTF-8
+load mapsrc enc/trans/JIS/JISX0208VDC@NEC%UCS.src
+load mapsrc enc/trans/JIS/JISX0208UDC%UCS.src
+load mapsrc enc/trans/JIS/JISX0208@MS%UCS.src
+load mapsrc enc/trans/JIS/JISX0201-KANA%UCS.src
+load mapsrc enc/trans/JIS/JISX0212VDC@IBM%UCS.src
+load mapsrc enc/trans/JIS/JISX0212UDC%UCS.src
+load mapsrc enc/trans/JIS/JISX0212@MS%UCS.src
+converter from eucJP-ms to UTF-8
+load mapsrc enc/trans/JIS/JISX0208VDC@NEC%UCS.src
+load mapsrc enc/trans/CP/CP932VDC@NEC_IBM%UCS.src
+load mapsrc enc/trans/JIS/JISX0208@MS%UCS.src
+load mapsrc enc/trans/JIS/JISX0201-KANA%UCS.src
+converter from CP51932 to UTF-8
+load mapsrc enc/trans/JIS/JISX0208@1990%UCS.src
+load mapsrc enc/trans/JIS/JISX0213-1%UCS@BMP.src
+load mapsrc enc/trans/JIS/JISX0213-1%UCS@SIP.src
+load mapsrc enc/trans/JIS/JISX0201-KANA%UCS.src
+load mapsrc enc/trans/JIS/JISX0213-2%UCS@BMP.src
+load mapsrc enc/trans/JIS/JISX0213-2%UCS@SIP.src
+converter from EUC-JIS-2004 to UTF-8
+load mapsrc enc/trans/JIS/UCS%JISX0208@1990.src
+load mapsrc enc/trans/JIS/UCS%JISX0201-KANA.src
+load mapsrc enc/trans/JIS/UCS%JISX0212.src
+converter from UTF-8 to EUC-JP
+load mapsrc enc/trans/JIS/UCS%JISX0208@MS.src
+load mapsrc enc/trans/JIS/UCS%JISX0208VDC@NEC.src
+load mapsrc enc/trans/JIS/UCS%JISX0208UDC.src
+load mapsrc enc/trans/JIS/UCS%JISX0201-KANA.src
+load mapsrc enc/trans/JIS/UCS%JISX0212VDC@IBM.src
+load mapsrc enc/trans/JIS/UCS%JISX0212UDC.src
+load mapsrc enc/trans/JIS/UCS%JISX0212@MS.src
+converter from UTF-8 to eucJP-ms
+load mapsrc enc/trans/JIS/UCS%JISX0208@MS.src
+load mapsrc enc/trans/JIS/UCS%JISX0208VDC@NEC.src
+load mapsrc enc/trans/CP/UCS%CP932VDC@NEC_IBM.src
+load mapsrc enc/trans/JIS/UCS%JISX0201-KANA.src
+converter from UTF-8 to CP51932
+load mapsrc enc/trans/JIS/UCS%JISX0208@1990.src
+load mapsrc enc/trans/JIS/UCS@BMP%JISX0213-1.src
+load mapsrc enc/trans/JIS/UCS@SIP%JISX0213-1.src
+load mapsrc enc/trans/JIS/UCS%JISX0201-KANA.src
+load mapsrc enc/trans/JIS/UCS@BMP%JISX0213-2.src
+load mapsrc enc/trans/JIS/UCS@SIP%JISX0213-2.src
+converter from UTF-8 to EUC-JIS-2004
+done.  (8.32user 0.06system 8.31elapsed)
+generating table from enc/trans/japanese_sjis.c
+generating enc/trans/japanese_sjis.c ...
+load mapsrc enc/trans/JIS/JISX0201-KANA%UCS.src
+load mapsrc enc/trans/JIS/JISX0208@1990%UCS.src
+converter from Shift_JIS to UTF-8
+load mapsrc enc/trans/JIS/JISX0201-KANA%UCS.src
+load mapsrc enc/trans/JIS/JISX0208VDC@NEC%UCS.src
+load mapsrc enc/trans/CP/CP932VDC@NEC_IBM%UCS.src
+load mapsrc enc/trans/CP/CP932VDC@IBM%UCS.src
+load mapsrc enc/trans/CP/CP932UDA%UCS.src
+load mapsrc enc/trans/JIS/JISX0208@MS%UCS.src
+converter from Windows-31J to UTF-8
+load mapsrc enc/trans/JIS/UCS%JISX0201-KANA.src
+load mapsrc enc/trans/JIS/UCS%JISX0208@1990.src
+converter from UTF-8 to Shift_JIS
+load mapsrc enc/trans/JIS/UCS%JISX0201-KANA.src
+load mapsrc enc/trans/JIS/UCS%JISX0208@MS.src
+load mapsrc enc/trans/JIS/UCS%JISX0208VDC@NEC.src
+load mapsrc enc/trans/CP/UCS%CP932VDC@IBM.src
+load mapsrc enc/trans/CP/UCS%CP932VDC@NEC_IBM.src
+load mapsrc enc/trans/CP/UCS%CP932UDA.src
+converter from UTF-8 to Windows-31J
+done.  (3.22user 0.03system 3.15elapsed)
+generating table from enc/trans/korean.c
+generating enc/trans/korean.c ...
+converter from UTF-8 to EUC-KR
+converter from EUC-KR to UTF-8
+converter from UTF-8 to CP949
+converter from CP949 to UTF-8
+done.  (4.33user 0.04system 4.26elapsed)
+generating table from enc/trans/single_byte.c
+generating enc/trans/single_byte.c ...
+converter from US-ASCII to UTF-8
+converter from UTF-8 to US-ASCII
+converter from ASCII-8BIT to UTF-8
+converter from UTF-8 to ASCII-8BIT
+converter from ISO-8859-1 to UTF-8
+converter from UTF-8 to ISO-8859-1
+converter from ISO-8859-2 to UTF-8
+converter from UTF-8 to ISO-8859-2
+converter from ISO-8859-3 to UTF-8
+converter from UTF-8 to ISO-8859-3
+converter from ISO-8859-4 to UTF-8
+converter from UTF-8 to ISO-8859-4
+converter from ISO-8859-5 to UTF-8
+converter from UTF-8 to ISO-8859-5
+converter from ISO-8859-6 to UTF-8
+converter from UTF-8 to ISO-8859-6
+converter from ISO-8859-7 to UTF-8
+converter from UTF-8 to ISO-8859-7
+converter from ISO-8859-8 to UTF-8
+converter from UTF-8 to ISO-8859-8
+converter from ISO-8859-9 to UTF-8
+converter from UTF-8 to ISO-8859-9
+converter from ISO-8859-10 to UTF-8
+converter from UTF-8 to ISO-8859-10
+converter from ISO-8859-11 to UTF-8
+converter from UTF-8 to ISO-8859-11
+converter from ISO-8859-13 to UTF-8
+converter from UTF-8 to ISO-8859-13
+converter from ISO-8859-14 to UTF-8
+converter from UTF-8 to ISO-8859-14
+converter from ISO-8859-15 to UTF-8
+converter from UTF-8 to ISO-8859-15
+converter from ISO-8859-16 to UTF-8
+converter from UTF-8 to ISO-8859-16
+converter from WINDOWS-874 to UTF-8
+converter from UTF-8 to WINDOWS-874
+converter from WINDOWS-1250 to UTF-8
+converter from UTF-8 to WINDOWS-1250
+converter from WINDOWS-1251 to UTF-8
+converter from UTF-8 to WINDOWS-1251
+converter from WINDOWS-1252 to UTF-8
+converter from UTF-8 to WINDOWS-1252
+converter from WINDOWS-1253 to UTF-8
+converter from UTF-8 to WINDOWS-1253
+converter from WINDOWS-1254 to UTF-8
+converter from UTF-8 to WINDOWS-1254
+converter from WINDOWS-1255 to UTF-8
+converter from UTF-8 to WINDOWS-1255
+converter from WINDOWS-1256 to UTF-8
+converter from UTF-8 to WINDOWS-1256
+converter from WINDOWS-1257 to UTF-8
+converter from UTF-8 to WINDOWS-1257
+converter from IBM437 to UTF-8
+converter from UTF-8 to IBM437
+converter from IBM775 to UTF-8
+converter from UTF-8 to IBM775
+converter from IBM737 to UTF-8
+converter from UTF-8 to IBM737
+converter from IBM852 to UTF-8
+converter from UTF-8 to IBM852
+converter from IBM855 to UTF-8
+converter from UTF-8 to IBM855
+converter from IBM857 to UTF-8
+converter from UTF-8 to IBM857
+converter from IBM860 to UTF-8
+converter from UTF-8 to IBM860
+converter from IBM861 to UTF-8
+converter from UTF-8 to IBM861
+converter from IBM862 to UTF-8
+converter from UTF-8 to IBM862
+converter from IBM863 to UTF-8
+converter from UTF-8 to IBM863
+converter from IBM865 to UTF-8
+converter from UTF-8 to IBM865
+converter from IBM866 to UTF-8
+converter from UTF-8 to IBM866
+converter from IBM869 to UTF-8
+converter from UTF-8 to IBM869
+converter from MACCROATIAN to UTF-8
+converter from UTF-8 to MACCROATIAN
+converter from MACCYRILLIC to UTF-8
+converter from UTF-8 to MACCYRILLIC
+converter from MACGREEK to UTF-8
+converter from UTF-8 to MACGREEK
+converter from MACICELAND to UTF-8
+converter from UTF-8 to MACICELAND
+converter from MACROMAN to UTF-8
+converter from UTF-8 to MACROMAN
+converter from MACROMANIA to UTF-8
+converter from UTF-8 to MACROMANIA
+converter from MACTURKISH to UTF-8
+converter from UTF-8 to MACTURKISH
+converter from MACUKRAINE to UTF-8
+converter from UTF-8 to MACUKRAINE
+converter from KOI8-U to UTF-8
+converter from UTF-8 to KOI8-U
+converter from KOI8-R to UTF-8
+converter from UTF-8 to KOI8-R
+converter from TIS-620 to UTF-8
+converter from UTF-8 to TIS-620
+converter from CP850 to UTF-8
+converter from UTF-8 to CP850
+converter from CP852 to UTF-8
+converter from UTF-8 to CP852
+converter from CP855 to UTF-8
+converter from UTF-8 to CP855
+done.  (1.57user 0.04system 1.53elapsed)
+generating table from enc/trans/utf8_mac.c
+generating enc/trans/utf8_mac.c ...
+converter from UTF-8 to UTF8-MAC
+converter for from_UTF8_MAC
+converter for from_utf8_mac_nfc2
+done.  (4.11user 0.08system 4.09elapsed)
+generating table from enc/trans/utf_16_32.c
+generating enc/trans/utf_16_32.c ...
+converter for from_UTF_16LE
+converter for from_UTF_32LE
+converter for from_UTF_16BE
+converter for from_UTF_32BE
+converter for from_UTF_16
+converter for from_UTF_32
+converter for from_UTF_8
+done.  (0.16user 0.02system 0.07elapsed)
+make[1]: Leaving directory '/home/maksim/.rvm/src/ruby-head'
+generating transdb.h
+transdb.h updated
+compiling dln.c
+compiling localeinit.c
+creating verconf.h
+verconf.h updated
+compiling loadpath.c
+compiling builtin.c
+linking static-library libruby-static.a
+linking shared-library libruby.so.2.8.0
+generating makefiles ext/configure-ext.mk
+ext/configure-ext.mk updated
+make[1]: Entering directory '/home/maksim/.rvm/src/ruby-head'
+configuring -test-/arith_seq/extract
+configuring -test-/array/resize
+configuring -test-/bignum
+configuring -test-/bug-14834
+configuring -test-/bug-3571
+configuring -test-/bug-5832
+configuring -test-/bug_reporter
+configuring -test-/class
+configuring -test-/cxxanyargs
+configuring -test-/debug
+configuring -test-/dln/empty
+configuring -test-/enumerator_kw
+configuring -test-/exception
+configuring -test-/fatal
+configuring -test-/file
+configuring -test-/float
+configuring -test-/funcall
+configuring -test-/gvl/call_without_gvl
+configuring -test-/hash
+configuring -test-/integer
+configuring -test-/iseq_load
+configuring -test-/iter
+configuring -test-/load/dot.dot
+configuring -test-/load/protect
+configuring -test-/marshal/compat
+configuring -test-/marshal/internal_ivar
+configuring -test-/marshal/usr
+configuring -test-/memory_status
+configuring -test-/method
+configuring -test-/notimplement
+configuring -test-/num2int
+configuring -test-/path_to_class
+configuring -test-/popen_deadlock
+configuring -test-/postponed_job
+configuring -test-/printf
+configuring -test-/proc
+configuring -test-/rational
+configuring -test-/rb_call_super_kw
+configuring -test-/recursion
+configuring -test-/regexp
+configuring -test-/scan_args
+configuring -test-/st/foreach
+configuring -test-/st/numhash
+configuring -test-/st/update
+configuring -test-/string
+configuring -test-/struct
+configuring -test-/symbol
+configuring -test-/thread_fd_close
+configuring -test-/time
+configuring -test-/tracepoint
+configuring -test-/typeddata
+configuring -test-/vm
+configuring -test-/wait_for_single_fd
+configuring bigdecimal
+configuring cgi/escape
+configuring continuation
+configuring coverage
+configuring date
+configuring dbm
+configuring digest
+configuring digest/bubblebabble
+configuring digest/md5
+configuring digest/rmd160
+configuring digest/sha1
+configuring digest/sha2
+configuring etc
+configuring fcntl
+configuring fiber
+configuring fiddle
+libffi_version: [3, 2, 1]
+configuring gdbm
+configuring io/console
+configuring io/nonblock
+configuring io/wait
+configuring json
+configuring json/generator
+configuring json/parser
+configuring monitor
+configuring nkf
+configuring objspace
+configuring openssl
+configuring pathname
+configuring psych
+configuring pty
+configuring racc/cparse
+configuring rbconfig/sizeof
+configuring readline
+configuring ripper
+configuring rubyvm
+configuring sdbm
+configuring socket
+configuring stringio
+configuring strscan
+configuring syslog
+configuring zlib
+make[1]: Leaving directory '/home/maksim/.rvm/src/ruby-head'
+generating makefile exts.mk
+exts.mk updated
+make[1]: Entering directory '/home/maksim/.rvm/src/ruby-head'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/arith_seq/extract'
+compiling extract.c
+linking shared-object -test-/arith_seq/extract.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/arith_seq/extract'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/array/resize'
+compiling resize.c
+linking shared-object -test-/array/resize.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/array/resize'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/bignum'
+compiling big2str.c
+compiling bigzero.c
+compiling div.c
+compiling init.c
+compiling intpack.c
+compiling mul.c
+compiling str2big.c
+linking shared-object -test-/bignum.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/bignum'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/bug-14834'
+compiling bug-14384.c
+linking shared-object -test-/bug_14834.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/bug-14834'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/bug-3571'
+compiling bug.c
+linking shared-object -test-/bug_3571.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/bug-3571'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/bug-5832'
+compiling bug.c
+linking shared-object -test-/bug_5832.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/bug-5832'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/bug_reporter'
+compiling bug_reporter.c
+linking shared-object -test-/bug_reporter.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/bug_reporter'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/class'
+compiling class2name.c
+compiling init.c
+linking shared-object -test-/class.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/class'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/cxxanyargs'
+compiling cxxanyargs.cpp
+linking shared-object -test-/cxxanyargs.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/cxxanyargs'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/debug'
+compiling init.c
+compiling inspector.c
+compiling profile_frames.c
+linking shared-object -test-/debug.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/debug'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/dln/empty'
+compiling empty.c
+linking shared-object -test-/dln/empty.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/dln/empty'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/enumerator_kw'
+compiling enumerator_kw.c
+linking shared-object -test-/enumerator_kw.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/enumerator_kw'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/exception'
+compiling dataerror.c
+compiling enc_raise.c
+compiling ensured.c
+compiling init.c
+linking shared-object -test-/exception.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/exception'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/fatal'
+compiling rb_fatal.c
+linking shared-object -test-/fatal/rb_fatal.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/fatal'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/file'
+compiling fs.c
+compiling init.c
+compiling stat.c
+linking shared-object -test-/file.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/file'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/float'
+compiling init.c
+compiling nextafter.c
+linking shared-object -test-/float.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/float'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/funcall'
+compiling funcall.c
+linking shared-object -test-/funcall.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/funcall'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/gvl/call_without_gvl'
+compiling call_without_gvl.c
+linking shared-object -test-/gvl/call_without_gvl.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/gvl/call_without_gvl'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/hash'
+compiling delete.c
+compiling init.c
+linking shared-object -test-/hash.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/hash'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/integer'
+compiling core_ext.c
+compiling init.c
+compiling my_integer.c
+linking shared-object -test-/integer.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/integer'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/iseq_load'
+compiling iseq_load.c
+linking shared-object -test-/iseq_load.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/iseq_load'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/iter'
+compiling break.c
+compiling init.c
+compiling yield.c
+linking shared-object -test-/iter.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/iter'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/load/dot.dot'
+compiling dot.dot.c
+linking shared-object -test-/load/dot.dot.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/load/dot.dot'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/load/protect'
+compiling protect.c
+linking shared-object -test-/load/protect.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/load/protect'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/marshal/compat'
+compiling usrcompat.c
+linking shared-object -test-/marshal/compat.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/marshal/compat'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/marshal/internal_ivar'
+compiling internal_ivar.c
+linking shared-object -test-/marshal/internal_ivar.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/marshal/internal_ivar'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/marshal/usr'
+compiling usrmarshal.c
+linking shared-object -test-/marshal/usr.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/marshal/usr'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/method'
+compiling arity.c
+compiling init.c
+linking shared-object -test-/method.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/method'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/notimplement'
+compiling bug.c
+linking shared-object -test-/notimplement.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/notimplement'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/num2int'
+compiling num2int.c
+linking shared-object -test-/num2int.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/num2int'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/path_to_class'
+compiling path_to_class.c
+linking shared-object -test-/path_to_class.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/path_to_class'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/popen_deadlock'
+compiling infinite_loop_dlsym.c
+linking shared-object -test-/popen_deadlock/infinite_loop_dlsym.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/popen_deadlock'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/postponed_job'
+compiling postponed_job.c
+linking shared-object -test-/postponed_job.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/postponed_job'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/printf'
+compiling printf.c
+linking shared-object -test-/printf.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/printf'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/proc'
+compiling init.c
+compiling receiver.c
+compiling super.c
+linking shared-object -test-/proc.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/proc'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/rational'
+compiling rat.c
+linking shared-object -test-/rational.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/rational'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/rb_call_super_kw'
+compiling rb_call_super_kw.c
+linking shared-object -test-/rb_call_super_kw.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/rb_call_super_kw'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/recursion'
+compiling recursion.c
+linking shared-object -test-/recursion.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/recursion'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/regexp'
+compiling init.c
+compiling parse_depth_limit.c
+linking shared-object -test-/regexp.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/regexp'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/scan_args'
+compiling scan_args.c
+linking shared-object -test-/scan_args.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/scan_args'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/st/foreach'
+compiling foreach.c
+linking shared-object -test-/st/foreach.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/st/foreach'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/st/numhash'
+compiling numhash.c
+linking shared-object -test-/st/numhash.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/st/numhash'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/st/update'
+compiling update.c
+linking shared-object -test-/st/update.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/st/update'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/string'
+compiling capacity.c
+compiling coderange.c
+compiling cstr.c
+compiling ellipsize.c
+compiling enc_associate.c
+compiling enc_str_buf_cat.c
+compiling fstring.c
+compiling init.c
+compiling modify.c
+compiling new.c
+compiling nofree.c
+compiling normalize.c
+compiling qsort.c
+compiling rb_str_dup.c
+compiling set_len.c
+linking shared-object -test-/string.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/string'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/struct'
+compiling duplicate.c
+compiling init.c
+compiling len.c
+compiling member.c
+linking shared-object -test-/struct.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/struct'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/symbol'
+compiling init.c
+compiling type.c
+linking shared-object -test-/symbol.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/symbol'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/thread_fd_close'
+compiling thread_fd_close.c
+linking shared-object -test-/thread_fd_close.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/thread_fd_close'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/time'
+compiling init.c
+compiling leap_second.c
+compiling new.c
+linking shared-object -test-/time.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/time'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/tracepoint'
+compiling gc_hook.c
+compiling tracepoint.c
+linking shared-object -test-/tracepoint.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/tracepoint'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/typeddata'
+compiling typeddata.c
+linking shared-object -test-/typeddata.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/typeddata'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/vm'
+compiling at_exit.c
+linking shared-object -test-/vm/at_exit.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/vm'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/wait_for_single_fd'
+compiling wait_for_single_fd.c
+linking shared-object -test-/wait_for_single_fd.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/-test-/wait_for_single_fd'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/bigdecimal'
+compiling bigdecimal.c
+linking shared-object bigdecimal.so
+installing default bigdecimal libraries
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/bigdecimal'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/cgi/escape'
+compiling escape.c
+linking shared-object cgi/escape.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/cgi/escape'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/continuation'
+compiling continuation.c
+linking shared-object continuation.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/continuation'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/coverage'
+compiling coverage.c
+linking shared-object coverage.so
+installing default coverage libraries
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/coverage'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/date'
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.so
+installing default date_core libraries
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/date'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/digest'
+compiling digest.c
+linking shared-object digest.so
+installing digest libraries
+installing default digest libraries
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/digest'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/digest/bubblebabble'
+compiling bubblebabble.c
+linking shared-object digest/bubblebabble.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/digest/bubblebabble'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/digest/md5'
+compiling md5init.c
+linking shared-object digest/md5.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/digest/md5'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/digest/rmd160'
+compiling rmd160init.c
+linking shared-object digest/rmd160.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/digest/rmd160'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/digest/sha1'
+compiling sha1init.c
+linking shared-object digest/sha1.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/digest/sha1'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/digest/sha2'
+compiling sha2init.c
+linking shared-object digest/sha2.so
+installing default sha2 libraries
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/digest/sha2'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/etc'
+generating constant definitions
+compiling etc.c
+linking shared-object etc.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/etc'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/fcntl'
+compiling fcntl.c
+linking shared-object fcntl.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/fcntl'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/fiber'
+compiling fiber.c
+linking shared-object fiber.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/fiber'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/fiddle'
+compiling closure.c
+compiling conversions.c
+compiling fiddle.c
+compiling function.c
+compiling handle.c
+compiling pointer.c
+linking shared-object fiddle.so
+installing default fiddle libraries
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/fiddle'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/gdbm'
+compiling gdbm.c
+linking shared-object gdbm.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/gdbm'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/io/console'
+compiling console.c
+linking shared-object io/console.so
+installing default console libraries
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/io/console'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/io/nonblock'
+compiling nonblock.c
+linking shared-object io/nonblock.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/io/nonblock'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/io/wait'
+compiling wait.c
+linking shared-object io/wait.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/io/wait'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/json'
+installing default libraries
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/json'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/json/generator'
+compiling generator.c
+linking shared-object json/ext/generator.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/json/generator'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/json/parser'
+compiling parser.c
+linking shared-object json/ext/parser.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/json/parser'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/monitor'
+compiling monitor.c
+linking shared-object monitor.so
+installing default monitor libraries
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/monitor'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/nkf'
+compiling nkf.c
+linking shared-object nkf.so
+installing default nkf libraries
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/nkf'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/objspace'
+compiling object_tracing.c
+compiling objspace.c
+compiling objspace_dump.c
+linking shared-object objspace.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/objspace'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/openssl'
+compiling openssl_missing.c
+compiling ossl.c
+compiling ossl_asn1.c
+compiling ossl_bio.c
+compiling ossl_bn.c
+compiling ossl_cipher.c
+compiling ossl_config.c
+compiling ossl_digest.c
+compiling ossl_engine.c
+compiling ossl_hmac.c
+compiling ossl_kdf.c
+compiling ossl_ns_spki.c
+compiling ossl_ocsp.c
+compiling ossl_pkcs12.c
+compiling ossl_pkcs7.c
+compiling ossl_pkey.c
+compiling ossl_pkey_dh.c
+compiling ossl_pkey_dsa.c
+compiling ossl_pkey_ec.c
+compiling ossl_pkey_rsa.c
+compiling ossl_rand.c
+compiling ossl_ssl.c
+compiling ossl_ssl_session.c
+compiling ossl_ts.c
+compiling ossl_x509.c
+compiling ossl_x509attr.c
+compiling ossl_x509cert.c
+compiling ossl_x509crl.c
+compiling ossl_x509ext.c
+compiling ossl_x509name.c
+compiling ossl_x509req.c
+compiling ossl_x509revoked.c
+compiling ossl_x509store.c
+linking shared-object openssl.so
+installing default openssl libraries
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/openssl'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/pathname'
+compiling pathname.c
+linking shared-object pathname.so
+installing default pathname libraries
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/pathname'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/psych'
+compiling psych.c
+compiling psych_emitter.c
+compiling psych_parser.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.so
+installing default psych libraries
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/psych'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/pty'
+compiling pty.c
+linking shared-object pty.so
+installing default pty libraries
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/pty'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/racc/cparse'
+compiling cparse.c
+linking shared-object racc/cparse.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/racc/cparse'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/rbconfig/sizeof'
+sizes.c updated
+compiling sizes.c
+limits.c updated
+compiling limits.c
+linking shared-object rbconfig/sizeof.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/rbconfig/sizeof'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/readline'
+compiling readline.c
+linking shared-object readline.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/readline'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/ripper'
+extracting ripper.y from ../.././parse.y
+compiling compiler ripper.y
+generating eventids1.c from ../.././parse.y
+generating eventids2table.c from ../.././ext/ripper/eventids2.c
+compiling ripper.c
+linking shared-object ripper.so
+installing default ripper libraries
+checking ../.././parse.y and ../.././ext/ripper/eventids2.c
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/ripper'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/rubyvm'
+installing default libraries
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/rubyvm'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/sdbm'
+compiling _sdbm.c
+compiling init.c
+linking shared-object sdbm.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/sdbm'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/socket'
+generating constant definitions
+compiling init.c
+compiling constants.c
+compiling basicsocket.c
+compiling socket.c
+compiling ipsocket.c
+compiling tcpsocket.c
+compiling tcpserver.c
+compiling sockssocket.c
+compiling udpsocket.c
+compiling unixsocket.c
+compiling unixserver.c
+compiling option.c
+compiling ancdata.c
+compiling raddrinfo.c
+compiling ifaddr.c
+linking shared-object socket.so
+installing default socket libraries
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/socket'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/stringio'
+compiling stringio.c
+linking shared-object stringio.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/stringio'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/strscan'
+compiling strscan.c
+linking shared-object strscan.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/strscan'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/syslog'
+compiling syslog.c
+linking shared-object syslog.so
+installing default syslog libraries
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/syslog'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head/ext/zlib'
+compiling zlib.c
+linking shared-object zlib.so
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head/ext/zlib'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-head'
+linking ruby
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-head'
+make[1]: Leaving directory '/home/maksim/.rvm/src/ruby-head'
+make[1]: Entering directory '/home/maksim/.rvm/src/ruby-head'
+*** Following extensions are not compiled:
+dbm:
+	Could not be configured. It will not be installed.
+	Check ext/dbm/mkmf.log for more details.
+*** Fix the problems, then remove these directories and try again if you want.
+make[1]: Leaving directory '/home/maksim/.rvm/src/ruby-head'
+making enc
+make[1]: Entering directory '/home/maksim/.rvm/src/ruby-head'
+compiling ./enc/encdb.c
+linking encoding encdb.so
+compiling ./enc/big5.c
+linking encoding big5.so
+compiling ./enc/cesu_8.c
+linking encoding cesu_8.so
+compiling ./enc/cp949.c
+linking encoding cp949.so
+compiling ./enc/emacs_mule.c
+linking encoding emacs_mule.so
+compiling ./enc/euc_jp.c
+linking encoding euc_jp.so
+compiling ./enc/euc_kr.c
+linking encoding euc_kr.so
+compiling ./enc/euc_tw.c
+linking encoding euc_tw.so
+compiling ./enc/gb2312.c
+linking encoding gb2312.so
+compiling ./enc/gb18030.c
+linking encoding gb18030.so
+compiling ./enc/gbk.c
+linking encoding gbk.so
+compiling ./enc/iso_8859_1.c
+linking encoding iso_8859_1.so
+compiling ./enc/iso_8859_2.c
+linking encoding iso_8859_2.so
+compiling ./enc/iso_8859_3.c
+linking encoding iso_8859_3.so
+compiling ./enc/iso_8859_4.c
+linking encoding iso_8859_4.so
+compiling ./enc/iso_8859_5.c
+linking encoding iso_8859_5.so
+compiling ./enc/iso_8859_6.c
+linking encoding iso_8859_6.so
+compiling ./enc/iso_8859_7.c
+linking encoding iso_8859_7.so
+compiling ./enc/iso_8859_8.c
+linking encoding iso_8859_8.so
+compiling ./enc/iso_8859_9.c
+linking encoding iso_8859_9.so
+compiling ./enc/iso_8859_10.c
+linking encoding iso_8859_10.so
+compiling ./enc/iso_8859_11.c
+linking encoding iso_8859_11.so
+compiling ./enc/iso_8859_13.c
+linking encoding iso_8859_13.so
+compiling ./enc/iso_8859_14.c
+linking encoding iso_8859_14.so
+compiling ./enc/iso_8859_15.c
+linking encoding iso_8859_15.so
+compiling ./enc/iso_8859_16.c
+linking encoding iso_8859_16.so
+compiling ./enc/koi8_r.c
+linking encoding koi8_r.so
+compiling ./enc/koi8_u.c
+linking encoding koi8_u.so
+compiling ./enc/shift_jis.c
+linking encoding shift_jis.so
+compiling ./enc/utf_16be.c
+linking encoding utf_16be.so
+compiling ./enc/utf_16le.c
+linking encoding utf_16le.so
+compiling ./enc/utf_32be.c
+linking encoding utf_32be.so
+compiling ./enc/utf_32le.c
+linking encoding utf_32le.so
+compiling ./enc/windows_31j.c
+linking encoding windows_31j.so
+compiling ./enc/windows_1250.c
+linking encoding windows_1250.so
+compiling ./enc/windows_1251.c
+linking encoding windows_1251.so
+compiling ./enc/windows_1252.c
+linking encoding windows_1252.so
+compiling ./enc/windows_1253.c
+linking encoding windows_1253.so
+compiling ./enc/windows_1254.c
+linking encoding windows_1254.so
+compiling ./enc/windows_1257.c
+linking encoding windows_1257.so
+make[1]: Leaving directory '/home/maksim/.rvm/src/ruby-head'
+making trans
+make[1]: Entering directory '/home/maksim/.rvm/src/ruby-head'
+compiling ./enc/trans/transdb.c
+linking transcoder transdb.so
+compiling ./enc/trans/big5.c
+linking transcoder big5.so
+compiling ./enc/trans/cesu_8.c
+linking transcoder cesu_8.so
+compiling ./enc/trans/chinese.c
+linking transcoder chinese.so
+compiling ./enc/trans/ebcdic.c
+linking transcoder ebcdic.so
+compiling ./enc/trans/emoji.c
+linking transcoder emoji.so
+compiling ./enc/trans/emoji_iso2022_kddi.c
+linking transcoder emoji_iso2022_kddi.so
+compiling ./enc/trans/emoji_sjis_docomo.c
+linking transcoder emoji_sjis_docomo.so
+compiling ./enc/trans/emoji_sjis_kddi.c
+linking transcoder emoji_sjis_kddi.so
+compiling ./enc/trans/emoji_sjis_softbank.c
+linking transcoder emoji_sjis_softbank.so
+compiling ./enc/trans/escape.c
+linking transcoder escape.so
+compiling ./enc/trans/gb18030.c
+linking transcoder gb18030.so
+compiling ./enc/trans/gbk.c
+linking transcoder gbk.so
+compiling ./enc/trans/iso2022.c
+linking transcoder iso2022.so
+compiling ./enc/trans/japanese.c
+linking transcoder japanese.so
+compiling ./enc/trans/japanese_euc.c
+linking transcoder japanese_euc.so
+compiling ./enc/trans/japanese_sjis.c
+linking transcoder japanese_sjis.so
+compiling ./enc/trans/korean.c
+linking transcoder korean.so
+compiling ./enc/trans/single_byte.c
+linking transcoder single_byte.so
+compiling ./enc/trans/utf8_mac.c
+linking transcoder utf8_mac.so
+compiling ./enc/trans/utf_16_32.c
+linking transcoder utf_16_32.so
+make[1]: Leaving directory '/home/maksim/.rvm/src/ruby-head'
+making encs
+make[1]: Entering directory '/home/maksim/.rvm/src/ruby-head'
+make[1]: Nothing to be done for 'encs'.
+make[1]: Leaving directory '/home/maksim/.rvm/src/ruby-head'
+building rb_mjit_header.h
+rb_mjit_header.h updated
+building .ext/include/x86_64-linux/rb_mjit_min_header-2.8.0.h
+./miniruby -I./lib -I. -I.ext/common  ./tool/transform_mjit_header.rb "gcc  -O3 -ggdb3 -Wall -Wextra -Werror=deprecated-declarations -Werror=duplicated-cond -Werror=implicit-function-declaration -Werror=implicit-int -Werror=misleading-indentation -Werror=pointer-arith -Werror=write-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -std=gnu99  -fPIC " rb_mjit_header.h .ext/include/x86_64-linux/rb_mjit_min_header-2.8.0.h
+
+Transforming external functions to static:
+transform_mjit_header: making external definition of 'rb_vm_lvar_exposed' static inline
+transform_mjit_header: making external definition of 'Init_vm_stack_canary' static inline
+transform_mjit_header: making external definition of 'rb_vm_opt_struct_aset' static inline
+transform_mjit_header: making external definition of 'rb_vm_opt_struct_aref' static inline
+transform_mjit_header: making external definition of 'rb_eql_opt' static inline
+transform_mjit_header: changing definition of 'rb_equal_opt' to declaration
+transform_mjit_header: making external definition of 'rb_vm_rewrite_cref' static inline
+transform_mjit_header: making external definition of 'rb_vm_block_ep_update' static inline
+transform_mjit_header: making external definition of 'rb_vm_cref_new_toplevel' static inline
+transform_mjit_header: making external definition of 'rb_vm_frame_block_handler' static inline
+transform_mjit_header: making external definition of 'rb_vm_cframe_keyword_p' static inline
+transform_mjit_header: making external definition of 'rb_vm_ep_local_ep' static inline
+transform_mjit_header: making declaration of 'rb_vm_lvar_exposed' static inline
+transform_mjit_header: making declaration of 'Init_vm_stack_canary' static inline
+transform_mjit_header: making declaration of 'rb_vm_rewrite_cref' static inline
+transform_mjit_header: making declaration of 'rb_vm_frame_block_handler' static inline
+transform_mjit_header: making declaration of 'rb_vm_block_ep_update' static inline
+transform_mjit_header: making declaration of 'rb_vm_ep_local_ep' static inline
+transform_mjit_header: making declaration of 'rb_eql_opt' static inline
+transform_mjit_header: making external definition of 'rb_scan_args_set' static inline
+transform_mjit_header: making declaration of 'rb_scan_args_set' static inline
+transform_mjit_header: SKIPPED to transform getlogin_r
+transform_mjit_header: SKIPPED to transform pread64
+transform_mjit_header: SKIPPED to transform pread
+transform_mjit_header: SKIPPED to transform read
+transform_mjit_header: SKIPPED to transform bsearch
+transform_mjit_header: SKIPPED to transform fread_unlocked
+transform_mjit_header: SKIPPED to transform fgets_unlocked
+transform_mjit_header: SKIPPED to transform fread
+transform_mjit_header: SKIPPED to transform fgets
+transform_mjit_header: SKIPPED to transform vdprintf
+transform_mjit_header: SKIPPED to transform dprintf
+transform_mjit_header: SKIPPED to transform vfprintf
+transform_mjit_header: SKIPPED to transform vprintf
+transform_mjit_header: SKIPPED to transform printf
+transform_mjit_header: SKIPPED to transform fprintf
+transform_mjit_header: SKIPPED to transform getline
+transform_mjit_header: SKIPPED to transform putchar_unlocked
+transform_mjit_header: SKIPPED to transform putc_unlocked
+transform_mjit_header: SKIPPED to transform fputc_unlocked
+transform_mjit_header: SKIPPED to transform putchar
+transform_mjit_header: SKIPPED to transform getchar_unlocked
+transform_mjit_header: SKIPPED to transform getc_unlocked
+transform_mjit_header: SKIPPED to transform fgetc_unlocked
+transform_mjit_header: SKIPPED to transform getchar
+ln -sf ../../../.ext/include/x86_64-linux/rb_mjit_min_header-2.8.0.h include/ruby-2.8.0/x86_64-linux/rb_mjit_min_header-2.8.0.h

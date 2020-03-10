@@ -1,0 +1,14 @@
+current directory: /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib/ruby/gems/2.7.0/gems/gem-wrappers-1.4.0/ext/wrapper_generator
+/home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/ruby -I /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib/ruby/2.7.0 -r ./siteconf20200305-29872-1p37fak.rb extconf.rb
+
+current directory: /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib/ruby/gems/2.7.0/gems/gem-wrappers-1.4.0/ext/wrapper_generator
+make "DESTDIR=" clean
+make: *** No rule to make target 'clean'.  Stop.
+
+current directory: /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib/ruby/gems/2.7.0/gems/gem-wrappers-1.4.0/ext/wrapper_generator
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib/ruby/gems/2.7.0/gems/gem-wrappers-1.4.0/ext/wrapper_generator
+make "DESTDIR=" install
+make: Nothing to be done for 'install'.

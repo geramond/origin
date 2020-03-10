@@ -1,0 +1,29 @@
+[2020-03-05 20:11:20] __rvm_set_executable
+__rvm_set_executable () 
+{ 
+    for __file in "$@";
+    do
+        [[ -x "${__file}" ]] || chmod +x "${__file}";
+    done
+}
+current path: /home/maksim/.rvm/src/ruby-head
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/maksim/.rvm/bin:/home/maksim/.rvm/bin
+command(10): __rvm_set_executable /home/maksim/.rvm/rubies/ruby-head/bin/bundle /home/maksim/.rvm/rubies/ruby-head/bin/bundler /home/maksim/.rvm/rubies/ruby-head/bin/erb /home/maksim/.rvm/rubies/ruby-head/bin/gem /home/maksim/.rvm/rubies/ruby-head/bin/irb /home/maksim/.rvm/rubies/ruby-head/bin/racc /home/maksim/.rvm/rubies/ruby-head/bin/rdoc /home/maksim/.rvm/rubies/ruby-head/bin/ri /home/maksim/.rvm/rubies/ruby-head/bin/ruby
+++ for __file in "$@"
+++ [[ -x /home/maksim/.rvm/rubies/ruby-head/bin/bundle ]]
+++ for __file in "$@"
+++ [[ -x /home/maksim/.rvm/rubies/ruby-head/bin/bundler ]]
+++ for __file in "$@"
+++ [[ -x /home/maksim/.rvm/rubies/ruby-head/bin/erb ]]
+++ for __file in "$@"
+++ [[ -x /home/maksim/.rvm/rubies/ruby-head/bin/gem ]]
+++ for __file in "$@"
+++ [[ -x /home/maksim/.rvm/rubies/ruby-head/bin/irb ]]
+++ for __file in "$@"
+++ [[ -x /home/maksim/.rvm/rubies/ruby-head/bin/racc ]]
+++ for __file in "$@"
+++ [[ -x /home/maksim/.rvm/rubies/ruby-head/bin/rdoc ]]
+++ for __file in "$@"
+++ [[ -x /home/maksim/.rvm/rubies/ruby-head/bin/ri ]]
+++ for __file in "$@"
+++ [[ -x /home/maksim/.rvm/rubies/ruby-head/bin/ruby ]]

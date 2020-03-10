@@ -1,0 +1,8 @@
+export PATH="/home/maksim/.rvm/gems/ruby-head@global/bin:/home/maksim/.rvm/rubies/ruby-head/bin:$PATH"
+export GEM_HOME='/home/maksim/.rvm/gems/ruby-head@global'
+export GEM_PATH='/home/maksim/.rvm/gems/ruby-head@global'
+export MY_RUBY_HOME='/home/maksim/.rvm/rubies/ruby-head'
+export IRBRC='/home/maksim/.rvm/rubies/ruby-head/.irbrc'
+unset MAGLEV_HOME
+unset RBXOPT
+export RUBY_VERSION='ruby-head'

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="sublime-text_subl.desktop" score="92" last-seen="1583815886"/>
+    <application id="org.gnome.Nautilus.desktop" score="31" last-seen="1583816138"/>
+    <application id="atom.desktop" score="106" last-seen="1583820533"/>
+    <application id="org.gnome.FileRoller.desktop" score="0" last-seen="1583300188"/>
+    <application id="firefox.desktop" score="248" last-seen="1583813808"/>
+    <application id="org.gnome.Terminal.desktop" score="2960" last-seen="1583820496"/>
+    <application id="org.gnome.Software.desktop" score="57" last-seen="1583813813"/>
+    <application id="org.gnome.gedit.desktop" score="220" last-seen="1583813811"/>
+    <application id="libreoffice-writer.desktop" score="0" last-seen="1583392907"/>
+    <application id="gnome-initial-setup.desktop" score="76" last-seen="1583242036"/>
+    <application id="update-manager.desktop" score="0" last-seen="1583299415"/>
+    <application id="org.gnome.Shell.PortalHelper.desktop" score="123" last-seen="1583392831"/>
+  </context>
+</application-state>

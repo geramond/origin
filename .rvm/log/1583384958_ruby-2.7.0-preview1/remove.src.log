@@ -1,0 +1,20 @@
+[2020-03-05 08:09:18] __rvm_rm_rf
+__rvm_rm_rf () 
+{ 
+    __rvm_rm_rf_verbose "$@"
+}
+current path: /home/maksim
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/maksim/.rvm/bin:/home/maksim/.rvm/bin
+command(2): __rvm_rm_rf /home/maksim/.rvm/src/ruby-2.7.0-preview1
++++ __rvm_rm_rf_verbose /home/maksim/.rvm/src/ruby-2.7.0-preview1
++++ typeset target
++++ target=/home/maksim/.rvm/src/ruby-2.7.0-preview1
++++ [[ -n '' ]]
++++ [[ -n 5.0.3(1)-release ]]
++++ builtin shopt -s extglob
++++ case "${target}" in
++++ [[ -z /home/maksim/.rvm/src/ruby-2.7.0-preview1 ]]
++++ [[ -d /home/maksim/.rvm/src/ruby-2.7.0-preview1 ]]
++++ command rm -rf /home/maksim/.rvm/src/ruby-2.7.0-preview1
++++ rm -rf /home/maksim/.rvm/src/ruby-2.7.0-preview1
++++ true

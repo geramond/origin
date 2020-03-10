@@ -1,0 +1,29 @@
+[2020-03-05 08:22:16] __rvm_set_executable
+__rvm_set_executable () 
+{ 
+    for __file in "$@";
+    do
+        [[ -x "${__file}" ]] || chmod +x "${__file}";
+    done
+}
+current path: /home/maksim/.rvm/src/ruby-2.7.0-preview1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/maksim/.rvm/bin:/home/maksim/.rvm/bin
+command(10): __rvm_set_executable /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/bundle /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/bundler /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/erb /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/gem /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/irb /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/rake /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/rdoc /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/ri /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/ruby
++++ for __file in "$@"
++++ [[ -x /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/bundle ]]
++++ for __file in "$@"
++++ [[ -x /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/bundler ]]
++++ for __file in "$@"
++++ [[ -x /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/erb ]]
++++ for __file in "$@"
++++ [[ -x /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/gem ]]
++++ for __file in "$@"
++++ [[ -x /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/irb ]]
++++ for __file in "$@"
++++ [[ -x /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/rake ]]
++++ for __file in "$@"
++++ [[ -x /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/rdoc ]]
++++ for __file in "$@"
++++ [[ -x /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/ri ]]
++++ for __file in "$@"
++++ [[ -x /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin/ruby ]]

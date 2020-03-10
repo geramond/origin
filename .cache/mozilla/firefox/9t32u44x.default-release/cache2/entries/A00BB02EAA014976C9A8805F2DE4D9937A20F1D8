@@ -1,0 +1,316 @@
+Ôªø<!DOCTYPE html>
+<html lang="en" class="">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="robots" content="noindex">
+				<style>
+
+				@font-face {
+					font-family: 'icomoon';
+					src:url('https://cdn.arkoselabs.com/fc/gc/css/fonts3/icomoon.eot');
+				src:url('https://cdn.arkoselabs.com/fc/gc/css/fonts3/icomoon.eot') format('eot'),url('https://cdn.arkoselabs.com/fc/gc/css/fonts3/icomoon.woff') format('woff'),url('https://cdn.arkoselabs.com/fc/gc/css/fonts3/icomoon.ttf') format('ttf'),url('https://cdn.arkoselabs.com/fc/gc/css/fonts3/icomoon.svg#icomoon') format('svg');
+			
+					font-weight: normal;
+					font-style: normal;
+
+				}
+			</style>
+<link rel="stylesheet" href="https://cdn.arkoselabs.com/fc/assets/graphics/github/github_game3.css" type="text/css">
+		<link rel="stylesheet" href="https://cdn.arkoselabs.com/fc/gc/css/min/64d1bc194da9b002ad6bab80d4415eac/fc-meta-10.css" type="text/css">
+	</head>
+
+	<body class="">
+		<button id="triggerLiteMode" class="visuallyHidden" aria-label="Visual challenge. Screen reader users should use the audio challenge below. Verify"></button>
+		<div class="main-ctn">
+			 <div class="loader-ctn">
+				 <div class="fc-loader">
+					 <svg version="1.1" id="svg-fc-spinner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+																																				  viewBox="0 0 30 30" style="enable-background:new 0 0 30 30; display:none" xml:space="preserve">
+						 <g id="XMLID_1_">
+						 <path id="XMLID_14_" class="svg-fc-style-loader" d="M15,2c0,0,0.1,0,0.1,0c0,0,0,0,0.1,0l0.1,0l0,0l0,0c0.1,0,0.2,0.1,0.2,0.1l1.3,0.7l3.9,2.3
+						 l5.3,3.1c0.3,0.2,0.4,0.4,0.4,0.8v12.1l0,0l0,0.1l0,0l0,0c0,0.1-0.1,0.3-0.2,0.4c-0.1,0.1-0.2,0.2-0.3,0.2l-10.5,6.1
+						 C15.3,28,15.2,28,15,28c-0.1,0-0.1,0-0.2,0l-0.1,0c-0.1,0-0.2-0.1-0.2-0.1l-1.3-0.7L9.6,25l-5.5-3.2c-0.3-0.2-0.4-0.4-0.4-0.8V8.9
+						 l0,0l0-0.1l0-0.1l0,0c0-0.1,0.1-0.3,0.2-0.4C3.9,8.3,4,8.2,4.1,8.2l10.5-6.1C14.7,2,14.8,2,15,2 M15,0c-0.5,0-1,0.1-1.4,0.4
+						 L3.1,6.4C2.7,6.6,2.4,6.9,2.2,7.2C1.9,7.6,1.7,8,1.7,8.5c0,0,0,0,0,0c0,0.1,0,0.1,0,0.2c0,0.1,0,0.1,0,0.2v12.1v0
+						 c0,1,0.5,2,1.4,2.5l5.5,3.2l3.7,2.1v0l1.3,0.7c0.2,0.1,0.4,0.2,0.6,0.2c0,0,0.1,0,0.1,0c0,0,0,0,0,0C14.5,30,14.8,30,15,30
+						 c0.5,0,1-0.1,1.4-0.4l10.5-6.1c0.3-0.2,0.6-0.4,0.8-0.7c0.3-0.4,0.5-0.8,0.6-1.3c0,0,0,0,0,0c0-0.1,0-0.1,0-0.2c0-0.1,0-0.1,0-0.2
+						 v0V8.9c0-1-0.5-2-1.4-2.5l-5.3-3.1l-3.9-2.3l-1.3-0.7c-0.2-0.1-0.4-0.2-0.6-0.2c0,0-0.1,0-0.1,0c0,0,0,0,0,0
+						 c-0.1,0-0.2-0.1-0.4-0.1C15.2,0,15.1,0,15,0L15,0z"/>
+						 </g>
+					 </svg>
+				 </div>
+				 <p class="load-txt" style="display:none" dir="ltr" aria-label="Working, please wait..." tabindex="0">
+				 Working, please wait...				 </p>
+			 </div>
+
+			 <div class="upper-ctn" style="display:none">
+				 <div class="ctn front" id="ctn-1">
+					 <iframe class="wrapper" id="CaptchaFrame"
+						aria-hidden="true"
+						title="Visual challenge"
+						src="about:blank"
+						horizontalscrolling="no"
+						verticalscrolling="no"
+						scrolling="no">
+					 </iframe>
+				 </div>
+				 <div class="ctn" id="ctn-2">
+					<iframe class="wrapper" id="CaptchaFrame2"
+						aria-hidden="true"
+						title="Visual challenge"
+						src="about:blank"
+						horizontalscrolling="no"
+						verticalscrolling="no"
+						scrolling="no">
+					 </iframe>
+				 </div>
+				 <div id="victoryScreen" class="ctn wrapper hide"></div>
+			 </div>
+			 <div id="html-verify" style="display:none">
+				 <p><strong>Please prove you're not a spammer by doing this quick activity!</strong></p>
+				 <a class="fancy_btn" id="html-verify-btn">
+					 Verify				 </a>
+			 </div>
+		</div>
+		<div id="timeout_widget" style="display:none">
+	<span>
+		<p class="title">The connection to a verification server was interrupted. To prove you're not a spammer, please <strong>refresh this page</strong>.</p>
+	</span>
+</div>		</div>
+		<div class="audio-ctn">
+	<style>
+			#audio {
+					display:none;
+					width: 300px;
+			}
+			.audio_noauto_support_info {
+					display: none;
+			}
+			.audio_btn {
+					margin-left: auto;
+					margin-right: auto;
+			}
+
+			.audio_action_btn {
+					display: inline-block;
+					text-decoration: none;
+					margin-top: 5px;
+					margin-bottom: 5px;
+					margin-left: auto;
+					margin-right: auto;
+			}
+			.audio_commit_info:focus {
+				outline: none;
+			}
+			.audio_info_verify_info {
+					display:none;
+					text-align: center;
+					top: 50%;
+					position: absolute;
+					height: 40px;
+					margin-top: -20px;
+					width: 100%;
+			}
+			#audio_error {
+					display: none;
+			}
+			#audio_error p {
+				color: #e60000 !important;
+			}
+			.audio-ctn {
+				position: absolute;
+				top: 1px;
+				left: 1px;
+				right: 1px;
+				bottom: 1px;
+			}
+
+			#audio_response_field {
+				width: 170px;
+				margin-bottom: 5px;
+			}
+
+			#audio_response_field_label {
+				margin-top: 5px;
+				display: block;
+			}
+
+			.audio_response {
+				margin-left: 59px;
+			}
+	</style>
+	<div id="audio">
+		<div id="audio_error">
+				<p></p>
+		</div>
+				<div id="audio_instruction_ctrl" style="display:none">
+			Press CTRL to play again.		</div>
+				<span class="audio_noauto_support_info" id="audio_please_download_info" tabindex="-1">
+			Please download and listen to the sound, then type what you heard:		</span>
+		<span class="audio_info" id="audio_info">
+			Press Play and type what you hear:		</span>
+		<div style="text-align:center">
+				<button class="fancy_btn audio_btn audio_action_btn" id="audio_play" style="display:inline-block;"
+						aria-labelledby="audio_error audio_info audio_instruction_ctrl audio_instruction_button"
+						tabindex="0">
+				Play				</button>
+		</div>
+		<div style="text-align: left;">
+			<label for="audio_response_field" id="audio_response_field_label" class="audio_response">
+				Challenge Answer			</label>
+			<input class="response_field audio_response"
+				id="audio_response_field"
+				title="Challenge Answer"
+				aria-labelledby="Challenge Answer"
+				type="text"
+				tabindex="0"
+				autocomplete="off"
+				autocorrect="off"
+				autocapitalize="off"
+				spellcheck="false">
+			</input>
+		</div>
+		<div style="text-align: center;">
+			<button class="fancy_btn audio_btn audio_action_btn" id="audio_submit" tabindex="0">
+				Verify			</button>
+		</div>
+		<div style="text-align:center">
+			<!-- aria-labelledby will NOT get read out by IE -->
+			<button class="fancy_btn audio_action_btn" id="audio_download"
+				aria-labelledby="audio_error audio_please_download_info"
+				tabindex="0"
+				onclick="javascript:;"
+			>
+				Download Sound			</button>
+		</div>
+	</div>
+	<div id='audio-alert-container'>
+		<div id="audio_commit" class="audio_info_verify_info">
+				<p id="audio_commit_text" class="audio_commit_info" tabindex="-1" role="alert" aria-label="Commiting your answer. Please wait...">
+					Commiting your answer. Please wait...				</p>
+		</div>
+		<div id="audio_solve" class="audio_info_verify_info">
+				<p id="audio_solve_text" class="audio_commit_info" tabindex="-1" role="alert" aria-label="Your answer has been committed. Keep doing your thing!">
+					Your answer has been committed. Keep doing your thing!				</p>
+		</div>
+		<div id="audio_disabled" class="audio_info_verify_info">
+				<p role="alert"></p>
+		</div>
+	</div>
+</div>
+		<div class="infoCtn" style="display:none">
+			<style>
+	@font-face{
+		font-family:'digital-clock-font';
+		src: url('https://cdn.arkoselabs.com/fc/gc/css/fonts/DS-DIGI.TTF');
+	}
+	.timer_styles {
+		font-family:'digital-clock-font';
+		font-size: 38px;
+		margin-left: 5px;
+	}
+</style>
+<div class="timer" alt="Timer"><p class="timer_styles"></p></div>
+			<span class="meta_buttons">
+				<a class="helpBtn hide metaTooltipRight"
+						href="https://www.arkoselabs.com/how-to-solve/?lang=en"
+						hreflang="en"
+						onclick="sendAnalytics('show faqs', 'user clicked faqs')"
+						target="_blank"
+						title="Get answers to your questions"
+						aria-label="Get answers to your questions"
+						tabindex="0"
+						role="button">
+					<span class="fc_meta_help_btn">&#xe601;</span>
+					<!-- <img id="helpBtnImg" src="./images/Help-Icon.png"></img> -->
+				</a>
+
+				<a class="reloadBtn hide metaTooltipRight"
+						title="Start over with a different game"
+						aria-label="Start over with a different game"
+						tabindex="0"
+						role="button">
+					<span class="fc_meta_reload_btn">&#xe602;</span>
+					<!-- <img id="reloadBtnImg" src="./images/Refresh-Icon.png"></img> -->
+				</a>
+				<a class="audioBtn metaTooltipRight"
+						title="Change to an audio challenge"
+						aria-label="Audio challenge"
+						tabindex="0"
+						role="button">
+					<span class="fc_meta_audio_btn">&#xe600;</span>
+					<!-- <img id="audioOnBtnImg" src="./images/AudioOn-Icon.png"></img> -->
+				</a>
+				<a class="gameBtn hide metaTooltipRight"
+						title="Change to a visual challenge"
+						aria-label="Change to a visual challenge"
+						tabindex="0"
+						role="button">
+					<span class="fc_meta_changeback">&#xe604;</span>
+					<!-- <img id="audioOffBtnImg" src="./images/AudioOff-Icon.png"></img> -->
+				</a>
+			</span>
+		</div>
+		<script type='text/javascript'>
+	var lang_obj = {
+						"footer_phone_mode_on" : "This isn't working for me",							"footer_phone_mode_off" : "",							"audio_alert" : "Please enter your answer into the input box.",							"capped_calling_title" : "",							"audio_please_download_info" : "Please download and listen to the sound, then type what you heard:",							"visual_challenge_frame_title" : "Visual challenge",							"audio_challenge_frame_title" : "Audio challenge"				}
+</script>
+<script type="text/javascript" src="https://cdn.arkoselabs.com/fc/js/64d1bc194da9b002ad6bab80d4415eac/standard/meta_bootstrap.js"></script>
+<script type="text/javascript" src="https://cdn.arkoselabs.com/fc/js/64d1bc194da9b002ad6bab80d4415eac/standard/fc_general.js"></script>
+<script>
+	function addTooltipFontAdjustment(selector) {
+		try {
+			var toolTipRight = document.querySelector(selector);
+			if (!toolTipRight) return;
+
+			var currentLoadTextFontSize = window.getComputedStyle(toolTipRight).getPropertyValue('font-size');
+			var sizeValue = parseFloat(currentLoadTextFontSize.split('px')[0]);
+			var newSizeValue = (sizeValue + 0);
+
+			var rightTooltipAdditionalStyle = document.createElement('style');
+			rightTooltipAdditionalStyle.innerHTML = selector + ":focus::after {font-size: " + newSizeValue + "px;}";
+			document.body.appendChild(rightTooltipAdditionalStyle);
+		} catch (err) {}
+	}
+
+	addTooltipFontAdjustment('.metaTooltipRight');
+	addTooltipFontAdjustment('.metaTooltipLeft');
+	addTooltipFontAdjustment('.metaTooltipCenter');
+</script>
+	</body>
+</html>
+nsâr      ^_M£^_M®AiÛÙ^_M£  è    :https://api.funcaptcha.com/fc/gc/?token=2825e5f4da1f2e490.1016572805&r=eu-west-1&metabgclr=transparent&maintxtclr=%23cbccce&mainbgclr=%23fafbfc&guitextcolor=%2324292e&metaiconclr=%23cbccce&meta_height=311&meta_width=450&meta=10&pk=69A21A01-CC7B-B9C6-0F9A-E7FA06677FFC&at=40&ht=1&atp=2&cdn_url=https://cdn.arkoselabs.com/fc&lurl=https://audio-eu-west-1.arkoselabs.com&surl=https://api.funcaptcha.com necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/2.0 200 OK
+content-type: text/html; charset=utf-8
+content-length: 10708
+date: Wed, 04 Mar 2020 06:41:39 GMT
+x-amzn-requestid: 64d98575-ca2a-4f9e-8c9a-d5745793e346
+hackers: www.arkoselabs.com/whitehat/
+sregion: eu-west-1
+p3p: CP="IE6COMPAT"
+x-amzn-remapped-connection: keep-alive
+x-amz-apigw-id: I2kRhGdwDoEFxPQ=
+x-amzn-remapped-server: Arkose Labs Powered
+x-amzn-remapped-date: Wed, 04 Mar 2020 06:41:39 GMT
+x-cache: Miss from cloudfront
+via: 1.1 e0a5445a9b6b20c3399e57d2c05d4520.cloudfront.net (CloudFront)
+x-amz-cf-pop: ARN1-C1
+x-amz-cf-id: v17MHHTg-TyiIEOxWboSF9VebF9ljbu3GEkiBUZi4ABmQBmCPf1Tmg==
+X-Firefox-Spdy: h2
+ original-response-headers content-type: text/html; charset=utf-8
+content-length: 10708
+date: Wed, 04 Mar 2020 06:41:39 GMT
+x-amzn-requestid: 64d98575-ca2a-4f9e-8c9a-d5745793e346
+hackers: www.arkoselabs.com/whitehat/
+sregion: eu-west-1
+p3p: CP="IE6COMPAT"
+x-amzn-remapped-connection: keep-alive
+x-amz-apigw-id: I2kRhGdwDoEFxPQ=
+x-amzn-remapped-server: Arkose Labs Powered
+x-amzn-remapped-date: Wed, 04 Mar 2020 06:41:39 GMT
+x-cache: Miss from cloudfront
+via: 1.1 e0a5445a9b6b20c3399e57d2c05d4520.cloudfront.net (CloudFront)
+x-amz-cf-pop: ARN1-C1
+x-amz-cf-id: v17MHHTg-TyiIEOxWboSF9VebF9ljbu3GEkiBUZi4ABmQBmCPf1Tmg==
+X-Firefox-Spdy: h2
+ ctid 1 eTLD1Access 1;0;2705771705, uncompressed-len 0 net-response-time-onstart 324 net-response-time-onstop 371 predictor::resource-count 4 predictor::https://cdn.arkoselabs.com/fc/assets/graphics/github/github_game3.css 1,1,1583304099,4096 predictor::https://cdn.arkoselabs.com/fc/gc/css/min/64d1bc194da9b002ad6bab80d4415eac/fc-meta-10.css 1,1,1583304099,4096 predictor::https://cdn.arkoselabs.com/fc/js/64d1bc194da9b002ad6bab80d4415eac/standard/meta_bootstrap.js 1,1,1583304099,4096 predictor::https://cdn.arkoselabs.com/fc/js/64d1bc194da9b002ad6bab80d4415eac/standard/fc_general.js 1,1,1583304099,4096   )‘

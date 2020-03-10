@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+if
+  [[ -s "/home/maksim/.rvm/rubies/ruby-head/lib/ruby/gems/2.8.0/environment" ]]
+then
+  source "/home/maksim/.rvm/rubies/ruby-head/lib/ruby/gems/2.8.0/environment"
+  exec irb "$@"
+else
+  echo "ERROR: Missing RVM environment file: '/home/maksim/.rvm/rubies/ruby-head/lib/ruby/gems/2.8.0/environment'" >&2
+  exit 1
+fi

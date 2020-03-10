@@ -1,0 +1,78 @@
+[2020-03-05 08:09:22] __rvm_package_extract
+__rvm_package_extract () 
+{ 
+    rvm_debug __rvm_package_extract:$#: "$@";
+    \typeset __extract_src __extract_target __tempdir __path __file __return;
+    __extract_src="$1";
+    __extract_target="$2";
+    shift 2;
+    __return=0;
+    __tempdir="$( TMPDIR="${rvm_tmp_path}" mktemp -d -t rvm-tmp.XXXXXXXXX )";
+    __rvm_package_extract_run "$__extract_src" "$__tempdir" "$@" || __return=$?;
+    if (( __return == 0 )); then
+        for __path in "$__tempdir"/*;
+        do
+            __file="${__path##*/}";
+            if [[ -n "${__file}" && -e "$__extract_target/${__file}" ]]; then
+                \command \rm -rf "$__extract_target/${__file}" || __return=$?;
+            fi;
+            \command \mv -f "${__path}" "$__extract_target/" || __return=$?;
+        done;
+    fi;
+    if [[ -n "$__tempdir" ]]; then
+        \command \rm -rf "$__tempdir";
+    fi;
+    return $__return
+}
+current path: /home/maksim/.rvm/src
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/maksim/.rvm/bin:/home/maksim/.rvm/bin
+command(3): __rvm_package_extract /home/maksim/.rvm/archives/ruby-2.7.0-preview1.tar.bz2 /home/maksim/.rvm/tmp/rvm_src_1808
++++ rvm_debug __rvm_package_extract:2: /home/maksim/.rvm/archives/ruby-2.7.0-preview1.tar.bz2 /home/maksim/.rvm/tmp/rvm_src_1808
++++ ((  0  ))
++++ return 0
++++ typeset __extract_src __extract_target __tempdir __path __file __return
++++ __extract_src=/home/maksim/.rvm/archives/ruby-2.7.0-preview1.tar.bz2
++++ __extract_target=/home/maksim/.rvm/tmp/rvm_src_1808
++++ shift 2
++++ __return=0
+++++ TMPDIR=/home/maksim/.rvm/tmp
+++++ mktemp -d -t rvm-tmp.XXXXXXXXX
++++ __tempdir=/home/maksim/.rvm/tmp/rvm-tmp.PgOtbFFFY
++++ __rvm_package_extract_run /home/maksim/.rvm/archives/ruby-2.7.0-preview1.tar.bz2 /home/maksim/.rvm/tmp/rvm-tmp.PgOtbFFFY
++++ typeset __extract_run_src __extract_run_target __exclude_elements
++++ __extract_run_src=/home/maksim/.rvm/archives/ruby-2.7.0-preview1.tar.bz2
++++ __extract_run_target=/home/maksim/.rvm/tmp/rvm-tmp.PgOtbFFFY
++++ shift 2
++++ __exclude_elements=()
++++ [[    != *\ \-\-\n\o\-\s\a\m\e\-\o\w\n\e\r\ * ]]
++++ __rvm_grep -- --no-same-owner
++++ GREP_OPTIONS=
++++ __rvm_tar --help
++++ command grep -- --no-same-owner
++++ grep -- --no-same-owner
++++ rvm_tar_options=--no-same-owner
++++ [[ -d /home/maksim/.rvm/tmp/rvm-tmp.PgOtbFFFY ]]
++++ case "$__extract_run_src" in
++++ __map_tar_excludes
++++ typeset __exclude_element
++++ [[ -n '' ]]
++++ __rvm_tar -xjf /home/maksim/.rvm/archives/ruby-2.7.0-preview1.tar.bz2 -C /home/maksim/.rvm/tmp/rvm-tmp.PgOtbFFFY --no-same-owner
++++ tar -xjf /home/maksim/.rvm/archives/ruby-2.7.0-preview1.tar.bz2 -C /home/maksim/.rvm/tmp/rvm-tmp.PgOtbFFFY --no-same-owner
++++ __rvm_fix_group_permissions /home/maksim/.rvm/tmp/rvm-tmp.PgOtbFFFY/ruby-2.7.0-preview1
++++ __rvm_grep g=rw
++++ GREP_OPTIONS=
++++ umask -S
++++ command grep g=rw
++++ grep g=rw
++++ return 1
++++ ((  __return == 0  ))
++++ for __path in "$__tempdir"/*
++++ __file=ruby-2.7.0-preview1
++++ [[ -n ruby-2.7.0-preview1 ]]
++++ [[ -e /home/maksim/.rvm/tmp/rvm_src_1808/ruby-2.7.0-preview1 ]]
++++ command mv -f /home/maksim/.rvm/tmp/rvm-tmp.PgOtbFFFY/ruby-2.7.0-preview1 /home/maksim/.rvm/tmp/rvm_src_1808/
++++ mv -f /home/maksim/.rvm/tmp/rvm-tmp.PgOtbFFFY/ruby-2.7.0-preview1 /home/maksim/.rvm/tmp/rvm_src_1808/
++++ [[ -n /home/maksim/.rvm/tmp/rvm-tmp.PgOtbFFFY ]]
++++ command rm -rf /home/maksim/.rvm/tmp/rvm-tmp.PgOtbFFFY
++++ rm -rf /home/maksim/.rvm/tmp/rvm-tmp.PgOtbFFFY
++++ return 0

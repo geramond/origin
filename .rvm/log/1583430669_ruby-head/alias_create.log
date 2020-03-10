@@ -1,0 +1,50 @@
+[2020-03-05 20:51:09] alias_create_execute
+alias_create_execute () 
+{ 
+    for _path in "$rvm_rubies_path" "$rvm_gems_path" "$rvm_environments_path" "$rvm_wrappers_path";
+    do
+        if [[ -L "$_path/$alias_name" ]]; then
+            \command \rm -fv "$_path/$alias_name" || return $?;
+        fi;
+        \command \ln -fs "$_path/$rvm_ruby_string" "$_path/$alias_name" || return $?;
+    done;
+    __rvm_db_ "$rvm_path/config/alias" "$alias_name" "$rvm_ruby_string"
+}
+current path: /home/maksim
+GEM_PATH=/home/maksim/.rvm/gems/ruby-head:/home/maksim/.rvm/gems/ruby-head@global
+GEM_HOME=/home/maksim/.rvm/gems/ruby-head
+PATH=/home/maksim/.rvm/gems/ruby-head/bin:/home/maksim/.rvm/gems/ruby-head@global/bin:/home/maksim/.rvm/rubies/ruby-head/bin:/home/maksim/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+command(1): alias_create_execute
++ for _path in "$rvm_rubies_path" "$rvm_gems_path" "$rvm_environments_path" "$rvm_wrappers_path"
++ [[ -L /home/maksim/.rvm/rubies/default ]]
++ command ln -fs /home/maksim/.rvm/rubies/ruby-head /home/maksim/.rvm/rubies/default
++ ln -fs /home/maksim/.rvm/rubies/ruby-head /home/maksim/.rvm/rubies/default
++ for _path in "$rvm_rubies_path" "$rvm_gems_path" "$rvm_environments_path" "$rvm_wrappers_path"
++ [[ -L /home/maksim/.rvm/gems/default ]]
++ command ln -fs /home/maksim/.rvm/gems/ruby-head /home/maksim/.rvm/gems/default
++ ln -fs /home/maksim/.rvm/gems/ruby-head /home/maksim/.rvm/gems/default
++ for _path in "$rvm_rubies_path" "$rvm_gems_path" "$rvm_environments_path" "$rvm_wrappers_path"
++ [[ -L /home/maksim/.rvm/environments/default ]]
++ command ln -fs /home/maksim/.rvm/environments/ruby-head /home/maksim/.rvm/environments/default
++ ln -fs /home/maksim/.rvm/environments/ruby-head /home/maksim/.rvm/environments/default
++ for _path in "$rvm_rubies_path" "$rvm_gems_path" "$rvm_environments_path" "$rvm_wrappers_path"
++ [[ -L /home/maksim/.rvm/wrappers/default ]]
++ command ln -fs /home/maksim/.rvm/wrappers/ruby-head /home/maksim/.rvm/wrappers/default
++ ln -fs /home/maksim/.rvm/wrappers/ruby-head /home/maksim/.rvm/wrappers/default
++ __rvm_db_ /home/maksim/.rvm/config/alias default ruby-head
++ typeset __db __key __value
++ __db=/home/maksim/.rvm/config/alias
++ __key=default
++ shift 2
++ __value=ruby-head
++ case "${__value}" in
++ __rvm_db_add /home/maksim/.rvm/config/alias default ruby-head
++ typeset __dir=/home/maksim/.rvm/config
++ [[ -f /home/maksim/.rvm/config/alias ]]
++ __rvm_db_remove /home/maksim/.rvm/config/alias default
++ [[ -f /home/maksim/.rvm/config/alias ]]
++ __rvm_sed -e '\#^default=# d' -e '/^$/d' /home/maksim/.rvm/config/alias
++ sed -e '\#^default=# d' -e '/^$/d' /home/maksim/.rvm/config/alias
++ command mv -f /home/maksim/.rvm/config/alias.new /home/maksim/.rvm/config/alias
++ mv -f /home/maksim/.rvm/config/alias.new /home/maksim/.rvm/config/alias
++ printf '%b=%b\n' default ruby-head

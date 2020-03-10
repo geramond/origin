@@ -1,0 +1,164 @@
+[2020-03-05 08:22:05] __rvm_make
+__rvm_make () 
+{ 
+    \make "$@" || return $?
+}
+current path: /home/maksim/.rvm/src/ruby-2.7.0-preview1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/maksim/.rvm/bin:/home/maksim/.rvm/bin
+command(2): __rvm_make install
++++ make install
+./revision.h unchanged
+generating x86_64-linux-fake.rb
+x86_64-linux-fake.rb updated
+	BASERUBY = echo executable host ruby is required.  use --with-baseruby option.; false
+	CC = gcc
+	LD = ld
+	LDSHARED = gcc -shared
+	CFLAGS = -O3 -ggdb3 -Wall -Wextra -Werror=deprecated-declarations -Werror=duplicated-cond -Werror=implicit-function-declaration -Werror=implicit-int -Werror=misleading-indentation -Werror=pointer-arith -Werror=write-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -std=gnu99  -fPIC 
+	XCFLAGS = -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fno-strict-overflow -DRUBY_DEVEL=1 -fvisibility=hidden -fexcess-precision=standard -DRUBY_EXPORT -DCANONICALIZATION_FOR_MATHN
+	CPPFLAGS =   -I. -I.ext/include/x86_64-linux -I./include -I. -I./enc/unicode/12.1.0 
+	DLDFLAGS = -Wl,--compress-debug-sections=zlib -Wl,-soname,libruby.so.2.7  -fstack-protector-strong  
+	SOLIBS = -lz -lpthread -lrt -lrt -lgmp -ldl -lcrypt -lm 
+	LANG = en_US.UTF-8
+	LC_ALL = 
+	LC_CTYPE = 
+gcc (Ubuntu 9.2.1-9ubuntu2) 9.2.1 20191008
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+generating enc.mk
+making srcs under enc
+make[1]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1'
+make[1]: Nothing to be done for 'srcs'.
+make[1]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1'
+generating transdb.h
+transdb.h unchanged
+generating makefiles ext/configure-ext.mk
+ext/configure-ext.mk updated
+make[1]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1'
+make[1]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1'
+generating makefile exts.mk
+exts.mk unchanged
+make[1]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/psych'
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/psych'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/rubyvm'
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/rubyvm'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/coverage'
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/coverage'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/openssl'
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/openssl'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/json'
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/json'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/fiddle'
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/fiddle'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/socket'
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/socket'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/syslog'
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/syslog'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/nkf'
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/nkf'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/bigdecimal'
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/bigdecimal'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/ripper'
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/ripper'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/io/console'
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/io/console'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/date'
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/date'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/pty'
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/pty'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/pathname'
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/pathname'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/digest'
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/digest'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/digest/sha2'
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1/ext/digest/sha2'
+make[2]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1'
+./revision.h unchanged
+make[2]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1'
+make[1]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1'
+make[1]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1'
+*** Following extensions are not compiled:
+dbm:
+	Could not be configured. It will not be installed.
+	Check ext/dbm/mkmf.log for more details.
+*** Fix the problems, then remove these directories and try again if you want.
+make[1]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1'
+making enc
+make[1]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1'
+make[1]: Nothing to be done for 'enc'.
+make[1]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1'
+making trans
+make[1]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1'
+make[1]: Nothing to be done for './enc/trans'.
+make[1]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1'
+making encs
+make[1]: Entering directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1'
+make[1]: Nothing to be done for 'encs'.
+make[1]: Leaving directory '/home/maksim/.rvm/src/ruby-2.7.0-preview1'
+./miniruby -I./lib -I. -I.ext/common  ./tool/runruby.rb --extout=.ext  -- --disable-gems -r./x86_64-linux-fake ./tool/rbinstall.rb --make="make" --dest-dir="" --extout=".ext" --mflags="" --make-flags="" --data-mode=0644 --prog-mode=0755 --installed-list .installed.list --mantype="doc" --exclude=doc
+installing binary commands:         /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin
+installing base libraries:          /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib
+installing arch files:              /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib/ruby/2.7.0/x86_64-linux
+installing pkgconfig data:          /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib/pkgconfig
+installing extension objects:       /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib/ruby/2.7.0/x86_64-linux
+installing extension objects:       /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib/ruby/site_ruby/2.7.0/x86_64-linux
+installing extension objects:       /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib/ruby/vendor_ruby/2.7.0/x86_64-linux
+installing extension headers:       /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/include/ruby-2.7.0/x86_64-linux
+installing extension scripts:       /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib/ruby/2.7.0
+installing extension scripts:       /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib/ruby/site_ruby/2.7.0
+installing extension scripts:       /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib/ruby/vendor_ruby/2.7.0
+installing extension headers:       /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/include/ruby-2.7.0/ruby
+installing command scripts:         /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/bin
+installing library scripts:         /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib/ruby/2.7.0
+installing common headers:          /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/include/ruby-2.7.0
+installing manpages:                /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/share/man (man1, man5)
+installing default gems from lib:   /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib/ruby/gems/2.7.0 (build_info, cache, doc, extensions, gems, specifications)
+                                    bundler 2.1.0.pre.1
+                                    cmath 1.0.0
+                                    csv 3.0.9
+                                    e2mmap 0.1.0
+                                    fileutils 1.1.0
+                                    forwardable 1.2.0
+                                    ipaddr 1.2.2
+                                    irb 1.0.0
+                                    logger 1.3.0
+                                    matrix 0.1.0
+                                    mutex_m 0.1.0
+                                    ostruct 0.1.0
+                                    prime 0.1.0
+                                    rdoc 6.1.0
+                                    reline 0.0.0
+                                    rexml 3.1.9
+                                    rss 0.2.8
+                                    scanf 1.0.0
+                                    shell 0.7
+                                    sync 0.5.0
+                                    thwait 0.1.0
+                                    tracer 0.1.0
+                                    webrick 1.4.2
+installing default gems from ext:   /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib/ruby/gems/2.7.0 (build_info, cache, doc, extensions, gems, specifications)
+                                    bigdecimal 1.4.2
+                                    date 2.0.0
+                                    etc 1.0.1
+                                    fcntl 1.0.0
+                                    fiddle 1.0.0
+                                    gdbm 2.0.0
+                                    io-console 0.4.7
+                                    json 2.2.0
+                                    openssl 2.1.2
+                                    psych 3.1.0
+                                    sdbm 1.0.0
+                                    stringio 0.0.2
+                                    strscan 1.0.0
+                                    zlib 1.0.0
+installing bundled gems:            /home/maksim/.rvm/rubies/ruby-2.7.0-preview1/lib/ruby/gems/2.7.0 (build_info, cache, doc, extensions, gems, specifications)
+                                    xmlrpc 0.3.0
+                                    net-telnet 0.2.0
+                                    minitest 5.11.3
+                                    test-unit 3.3.3
+                                    rake 12.3.2
+                                    power_assert 1.1.4
+                                    did_you_mean 1.3.0

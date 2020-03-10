@@ -1,0 +1,7 @@
+[2020-03-05 08:28:34] command
+current path: /home/maksim/.rvm/src
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/maksim/.rvm/bin:/home/maksim/.rvm/bin
+command(5): command git clone https://github.com/ruby/ruby.git /home/maksim/.rvm/repos/ruby
+++ git clone https://github.com/ruby/ruby.git /home/maksim/.rvm/repos/ruby
+Cloning into '/home/maksim/.rvm/repos/ruby'...
+fatal: unable to access 'https://github.com/ruby/ruby.git/': gnutls_handshake() failed: Error in the pull function.

@@ -2,11 +2,11 @@
 <application-state>
   <context id="">
     <application id="sublime-text_subl.desktop" score="92" last-seen="1583815886"/>
-    <application id="org.gnome.Nautilus.desktop" score="37" last-seen="1583846704"/>
+    <application id="org.gnome.Nautilus.desktop" score="42" last-seen="1583847419"/>
     <application id="atom.desktop" score="126" last-seen="1583846569"/>
     <application id="org.gnome.FileRoller.desktop" score="0" last-seen="1583300188"/>
     <application id="firefox.desktop" score="248" last-seen="1583813808"/>
-    <application id="org.gnome.Terminal.desktop" score="6632" last-seen="1583846699"/>
+    <application id="org.gnome.Terminal.desktop" score="6726" last-seen="1583847381"/>
     <application id="org.gnome.Software.desktop" score="57" last-seen="1583813813"/>
     <application id="org.gnome.gedit.desktop" score="220" last-seen="1583813811"/>
     <application id="libreoffice-writer.desktop" score="0" last-seen="1583392907"/>

@@ -1,23 +1,89 @@
-def water_status(minutes)\
-  if minutes < 7\
-    puts "The water is not boiling yet."\
-  elsif minutes == 7\
-    puts "It`s just barely boiling"\
-  elsif minutes == 8\
-    puts "It`s boiling!"\
-  else\
-    puts "Hot! Hot! Hot!"\
-  end\
+a = 5
+a
+b = 10 + 5
+b
+c = 20
+c
+c = "hello"
+c
+greeting = "Hello Everyone!"
+greeting
+greeting.length
+sentence = "This is my sample sentence."
+sentence.split
+numbers = "one,two,three,four,five"
+numbers
+numbers.split
+numbers.split(",")
+greeting
+greeting.gsub("Everyone!", "Friends!")
+greeting
+greetings = greeting.gsub("Everyone!", "Friends!")
+greeting
+greeting.gsub("Everyone!", "Friends!")
+"Good morning, Frank!"
+name = "Frank"
+"Good morning, " + name + "!"
+puts "Good morning, #{name}!"
+modifier = "very"
+mood = "excited"
+puts "I am #{modifier * 3 + mood} for today`s class!"
+modifier = "very "
+puts "I am #{modifier * 3 + mood} for today`s class!"
+for(var i = 0; i < 5; i++){\
+    console.log("Hello, world");\
+}\
+\
 end
-water_status(5)
-water_status(7)
-water_status(8)
-water_status(10)
-class Student\
-  attr_accessor :first_name, :last_name, :primary_phone_number\
-  \
-  def introduction\
-    puts "Hi, I`m #{first_name}!"\
-  end\
+5.times do\
+  puts "Hello, world!"\
 end
-exit
+5.times{ puts "Hello, world!"}
+"this is a sentence".gsub("e"){puts "Found an E!"}
+5.times do |i|\
+  puts "Hello, world!"\
+end
+i
+puts i
+5.times do |i|\
+  puts "Hello, world!"\
+end
+5.times do |i|\
+  puts "#{i}: Hello, world!"\
+end
+"this is a senctence".gsub("e"){|letter| letter.upcase}
+meals = ["Breakfast", "Lunch", "Dinner"]
+meals
+meals << "Desert"
+meals[2]
+meals.last
+one = ["this", "is", "an", "array"]
+one.sort
+one.sort(each)
+one.each
+one.join
+one.index
+one.include
+one.include
+include
+one.include
+one
+one.include
+produce = {"apples" => 3, "oranges" => 1, "carrots" => 12}
+produce
+
+produce["grapes"] = 221
+produce
+produce["oranges"] = 6
+produce
+produce.key
+produce.keys
+produce.values
+produce
+puts "There are #{produce[:oranges]} oranges in the fridge."
+puts "There are #{produce['oranges']} oranges in the fridge."
+puts "There are #{produce[:oranges]} oranges in the fridge."
+produce = {apples: 3, oranges: 1, carrots: 12}
+produce
+puts "There are #{produce[:oranges]} oranges in the fridge."
+ruby -v

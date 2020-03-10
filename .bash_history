@@ -175,3 +175,48 @@ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash.profile
 source ~/.bash_profile
 brew doctor
 brew install git
+ruby my_program.rb
+pwd
+ruby my_program.rb
+a = 5
+irb
+ruby -v
+irb
+pwd
+working directory
+pwd
+ruby student.rb 
+frank = Student.new
+Frank = student.new
+ruby student.rb 
+git init
+git add
+git add .
+git commit -m "First commit"
+git remote add origin remote https://github.com/geramond/origin.git
+
+git push origin master
+git remote add origin remote https://github.com/geramond/origin.git
+git remote -v
+git init
+git add
+git add .
+git commit -m "My First commit"
+git remote add origin https://github.com/geramond/origin.git
+git remote -v
+git push origin master
+ls
+cd Desktop/
+ls
+cd Ruby_On_Rails/
+git init
+git add .
+git commit -m "First commit"
+git remote add origin https://github.com/geramond.origin.git
+git remote -v
+
+git remote add origin https://github.com/geramond.origin.git
+git remote add origin https://github.com/geramond.origin1.git
+git remote add origin1 https://github.com/geramond.origin1.git
+git remote -v
+git push origin1 master

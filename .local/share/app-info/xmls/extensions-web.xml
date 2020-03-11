@@ -1197,7 +1197,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="6"/>
+      <release version="9"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -2297,7 +2297,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="24"/>
+      <release version="25"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -8672,6 +8672,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1367.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="2"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -9850,7 +9853,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="32"/>
+      <release version="33"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -15595,6 +15598,9 @@
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1503/tray-icons/</url>
+    <releases>
+      <release version="3"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -15751,7 +15757,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="36"/>
+      <release version="37"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>

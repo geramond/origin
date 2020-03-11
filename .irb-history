@@ -87,3 +87,7 @@ produce = {apples: 3, oranges: 1, carrots: 12}
 produce
 puts "There are #{produce[:oranges]} oranges in the fridge."
 ruby -v
+"5".to_i
+a = "5".to_i
+a.class
+exit

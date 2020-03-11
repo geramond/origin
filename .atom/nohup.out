@@ -5,3 +5,10 @@ Command 'env' is available in the following places
  * /usr/bin/env
 The command could not be located because '/bin:/usr/bin' is not included in the PATH environment variable.
 env: command not found
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+Command 'env' is available in the following places
+ * /bin/env
+ * /usr/bin/env
+The command could not be located because '/bin:/usr/bin' is not included in the PATH environment variable.
+env: command not found

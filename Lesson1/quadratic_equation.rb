@@ -1,12 +1,9 @@
-puts "Enter first coefficient"
-a = gets.chomp
-a = a.to_i
-puts "Enter second coefficient"
-b = gets.chomp
-b = b.to_i
-puts "Enter third coefficient"
-c = gets.chomp
-c = c.to_i
+puts 'Enter first coefficient'
+a = gets.chomp.to_i
+puts 'Enter second coefficient'
+b = gets.chomp.to_i
+puts 'Enter third coefficient'
+c = gets.chomp.to_i
 
 d = (b**2) - 4 * a * c
 if d < 0

@@ -1,6 +1,9 @@
-2020/03/17-07:50:12.292 2236 Reusing MANIFEST /home/maksim/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2020/03/17-07:50:12.292 2236 Recovering log #4
-2020/03/17-07:50:12.337 2236 Reusing old log /home/maksim/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000004.log 
-2020/03/17-10:30:46.844 13290 Level-0 table #8: started
-2020/03/17-10:30:46.955 13290 Level-0 table #8: 2245279 bytes OK
-2020/03/17-10:30:46.959 13290 Delete type=0 #4
+2020/03/17-17:20:29.095 2552 Reusing MANIFEST /home/maksim/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2020/03/17-17:20:29.095 2552 Recovering log #7
+2020/03/17-17:20:29.154 2552 Reusing old log /home/maksim/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000007.log 
+2020/03/17-17:57:22.941 4415 Compacting 1@1 + 1@2 files
+2020/03/17-17:57:22.992 4415 Generated table #10@1: 212 keys, 13434 bytes
+2020/03/17-17:57:22.992 4415 Compacted 1@1 + 1@2 files => 13434 bytes
+2020/03/17-17:57:22.996 4415 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/03/17-17:57:22.996 4415 Delete type=2 #8
+2020/03/17-17:57:22.997 4415 Delete type=2 #5

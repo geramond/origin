@@ -5,8 +5,6 @@ months = {january:31, february:28,
   september: 30, october: 31,
   november: 30, december: 31}
 
-months.each do |key, value|
-  if value == 30
-    puts "#{key}"
-  end
+months.each do |month, days|
+    puts "#{month}" if days == 30
 end

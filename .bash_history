@@ -315,3 +315,22 @@ ls-a
 ls -a
 1.class
 irb
+pwd
+ls -a
+cd Lesson2
+ls
+ruby months.rb 
+ls
+numbers_10_to_100.rb
+ruby numbers_10_to_100.rb 
+ruby phi_numbers.rb 
+ruby vowel_letters.rb 
+ls
+ruby date_index.rb 
+ruby buy_sum.rb 
+git add .
+pwd
+cd ~
+git add .
+git commit -m "Lesson2"
+git push

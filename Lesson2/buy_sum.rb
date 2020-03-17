@@ -1,16 +1,16 @@
 basket = {}
 result = 0
 
-puts "Enter stop to end"
+puts 'Enter stop to end'
 loop do
-  puts "Enter product name: "
+  puts 'Enter product name: '
   name = gets.chomp
   break if name == "stop"
 
-  puts "Enter product price: "
+  puts 'Enter product price: '
   price = gets.chomp.to_f
 
-  puts "Enter product count: "
+  puts 'Enter product count: '
   count = gets.chomp.to_f
 
   basket[name] = {price => count}

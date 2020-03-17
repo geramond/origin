@@ -2,16 +2,11 @@
 <application-state>
   <context id="">
     <application id="sublime-text_subl.desktop" score="92" last-seen="1583815886"/>
-    <application id="org.gnome.Nautilus.desktop" score="42" last-seen="1583847419"/>
-    <application id="atom.desktop" score="509" last-seen="1583905922"/>
-    <application id="org.gnome.FileRoller.desktop" score="0" last-seen="1583300188"/>
-    <application id="firefox.desktop" score="248" last-seen="1583813808"/>
-    <application id="org.gnome.Terminal.desktop" score="14688" last-seen="1583905424"/>
-    <application id="org.gnome.Software.desktop" score="57" last-seen="1583813813"/>
-    <application id="org.gnome.gedit.desktop" score="220" last-seen="1583813811"/>
-    <application id="libreoffice-writer.desktop" score="0" last-seen="1583392907"/>
-    <application id="gnome-initial-setup.desktop" score="76" last-seen="1583242036"/>
+    <application id="org.gnome.Nautilus.desktop" score="85" last-seen="1584420701"/>
+    <application id="atom.desktop" score="2092" last-seen="1584431652"/>
+    <application id="org.gnome.Shell.PortalHelper.desktop" score="124" last-seen="1583935840"/>
+    <application id="org.gnome.Terminal.desktop" score="15012" last-seen="1584431470"/>
+    <application id="org.gnome.gedit.desktop" score="236" last-seen="1583987638"/>
     <application id="update-manager.desktop" score="0" last-seen="1583905232"/>
-    <application id="org.gnome.Shell.PortalHelper.desktop" score="123" last-seen="1583392831"/>
   </context>
 </application-state>

@@ -220,3 +220,98 @@ git remote add origin https://github.com/geramond.origin1.git
 git remote add origin1 https://github.com/geramond.origin1.git
 git remote -v
 git push origin1 master
+pwd
+git init
+ls
+cd Desktop/Ruby_On_Rails/
+git init
+git commit -m "My First commit"
+git remote add geramond https://github.com/geramond/geramond.git
+git remote -v
+git push geramond master
+cd ~
+ls
+git add .
+git commit -m "Lesson 1"
+git push
+git remote add origin https://github.com/geramond/origin.git
+git remote -v
+git push origin master
+ls
+git add .
+git commit -m "Lesson1"
+git push
+git push origin master
+pwd
+ls
+cd Lesson1/
+ls
+ruby IdealWeight.rb 
+irb
+ruby IdealWeight.rb 
+ls
+ruby TriangleArea.rb 
+ls
+ruby RightTriangle.rb 
+ls
+ruby QuadraticEquation.rb 
+ls
+pwd
+cd ~
+pwd
+git config user.name Maksim Fomin
+git config user.email geramond@gmail.com
+git status
+git add .
+git commit -m Lesson 1
+git commit -m Lesson1
+git log
+git push origin master
+pwd
+ls
+git status --ignored
+pwd
+ls
+cd Lesson1/
+ls
+ruby ideal_weight.rb 
+ruby right_triangle.rb 
+ruby quadratic_equation.rb 
+ruby triangle_area.rb 
+irb
+ls
+ruby right_triangle.rb 
+ls
+pwd
+ls
+git add .gitignore
+touch .gitignore.
+ls
+ls -a
+git add .gitignore
+ls
+ls -a
+git add .
+git commit Lesson1_1
+git commit Lesson1
+git remote add origin https://github.com/geramond/origin.git
+git remote -v
+git push origin master
+git add .gitignore
+ls
+ls -a
+git add .gitignore
+git commit GitIgnore
+git commit Lesson1
+git add .gitignore
+git add .
+git commit Lesson1
+git remote -v
+git push origin master
+pwd
+ls -a
+ls -l
+ls-a
+ls -a
+1.class
+irb

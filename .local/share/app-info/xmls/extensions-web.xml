@@ -311,7 +311,7 @@
     <url type="homepage">https://extensions.gnome.org/extension/1262/bing-wallpaper-changer/</url>
     <screenshots>
       <screenshot type="default">
-        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1262_Dspl8C2.png</image>
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1262_pHSrPhV.png</image>
       </screenshot>
     </screenshots>
     <releases>
@@ -798,6 +798,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_202.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="5"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -1197,7 +1200,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="9"/>
+      <release version="6"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -1308,7 +1311,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="20"/>
+      <release version="21"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -1581,9 +1584,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_240_RT50WI4.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="66"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -2287,7 +2287,7 @@
   <component type="shell-extension">
     <id>SomaFm-Radio_alireza6677.gmail.com</id>
     <name>SomaFm internet radio</name>
-    <description><p>Listen to SomaFm free internet radio using Gnome * Featues:</p><p>- 32 Channels - Volume slider - Favorites menu - Good sound quality - Supports most gnome-shell versions - Channel logos</p><p></p><p>* Requirements: - Gstreamer: You need to install gstreamer and multimedia codecs/plugins for your distro.</p></description>
+    <description><p>Listen to SomaFm free internet radio using Gnome</p><p>* Featues: - 32 Channels - Volume slider - Favorites menu - Good sound quality - Supports most gnome-shell versions - Channel logos</p><p></p><p>* Requirements: - Gstreamer + Plugins:     You need to install &apos;gstreamer&apos; and multimedia codecs and &apos;plugins&apos; for your distro.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1237/somafm-internet-radio/</url>
@@ -2297,7 +2297,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="25"/>
+      <release version="26"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -3425,7 +3425,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="32"/>
+      <release version="33"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -5576,7 +5576,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="21"/>
+      <release version="22"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -6137,7 +6137,7 @@
   <component type="shell-extension">
     <id>drop-down-terminal-x_bigbn.pro</id>
     <name>Drop Down Terminal X</name>
-    <description><p>A GNOME Shell drop down terminal with extra feautures.</p><p>▒█▀▀▄ ▒█▀▀▄ ▀▀█▀▀ ▀▄▒▄▀  ▒█░▒█ ▒█░▒█ ░▒█░░ ░▒█░░  ▒█▄▄▀ ▒█▄▄▀ ░▒█░░ ▄▀▒▀▄</p><p>Includes: tabs, multi-monitor, font scaling support; [Focus out] / [Escape pressed] events for hide.</p><p>February 2020 updates: - Multi monitor enhancements - Workarea of current monitor for maximized mode</p><p>January 2020 updates: - Fixed fullscreen window priority - Keybinding to maximize terminal window; - Keybinding to manually focus terminal window; - Scrolling the volume indicator not affecting terminal;</p><p>November 2019 updates: - Added support for the ~/.ssh/config file. Now you can get quick access to any your ssh host in one click; - Added support for ~/.config/drop-down-terminal-x/shortcuts file Now you can define any action that will become available in a special drop-down list for quick launch. This small improvement can improve your productivity See file format at https://github.com/bigbn/drop-down-terminal-x - Added option to prevent terminal jumps down to the bottom on long command output</p><p>Special thanks to: - Osman Alperen Elhan (https://github.com/oae) - Balder Claassen (https://github.com/balderclaassen) - Adrien Pyke (https://github.com/kufii) - Alan J Carvajal (https://github.com/ajcarvajal) - Massimo Mund (https://github.com/masmu) - Jakub Żywiec (https://github.com/jakubzet) - Mattias Eriksson (https://github.com/snaggen) for active contribution.</p><p>Based on original extension &quot;gs-extensions-drop-down-terminal&quot; from Stéphane Démurget (https://github.com/zzrough)</p></description>
+    <description><p>A GNOME Shell drop down terminal with extra feautures.</p><p>▒█▀▀▄ ▒█▀▀▄ ▀▀█▀▀ ▀▄▒▄▀  ▒█░▒█ ▒█░▒█ ░▒█░░ ░▒█░░  ▒█▄▄▀ ▒█▄▄▀ ░▒█░░ ▄▀▒▀▄</p><p>Includes: tabs, multi-monitor, font scaling support; [Focus out] / [Escape pressed] events for hide.</p><p>March 2020 updates: - Gnome 3.36 support - &quot;Open in current directory&quot; option</p><p>February 2020 updates: - Multi monitor enhancements - Workarea of current monitor for maximized mode</p><p>January 2020 updates: - Fixed fullscreen window priority - Keybinding to maximize terminal window; - Keybinding to manually focus terminal window; - Scrolling the volume indicator not affecting terminal;</p><p>November 2019 updates: - Added support for the ~/.ssh/config file. Now you can get quick access to any your ssh host in one click; - Added support for ~/.config/drop-down-terminal-x/shortcuts file Now you can define any action that will become available in a special drop-down list for quick launch. This small improvement can improve your productivity See file format at https://github.com/bigbn/drop-down-terminal-x - Added option to prevent terminal jumps down to the bottom on long command output</p><p>Special thanks to: - Osman Alperen Elhan (https://github.com/oae) - Balder Claassen (https://github.com/balderclaassen) - Adrien Pyke (https://github.com/kufii) - Alan J Carvajal (https://github.com/ajcarvajal) - Massimo Mund (https://github.com/masmu) - Jakub Żywiec (https://github.com/jakubzet) - Mattias Eriksson (https://github.com/snaggen) for active contribution.</p><p>Based on original extension &quot;gs-extensions-drop-down-terminal&quot; from Stéphane Démurget (https://github.com/zzrough)</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1509/drop-down-terminal-x/</url>
@@ -9001,7 +9001,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="7"/>
+      <release version="8"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -9853,7 +9853,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="33"/>
+      <release version="38"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -10867,7 +10867,7 @@
   <component type="shell-extension">
     <id>new-mail-indicator_fthx</id>
     <name>New Mail Indicator</name>
-    <description><p>An icon beside the date in the topbar to show if there are unread emails when running your email client.</p><p> It checks the notifications in the message tray related to a new mail, no extra configuration needed, very light extension. Do not disable the notifications of your default email client !</p><p> *** It is not a standalone mail checker, you need your email client to be running. *** Please check that the xdg-utils package is installed.</p><p>  Email clients supported at the moment are : Thunderbird, Evolution, Geary, Mailspring. Please ask here to add the client you need. If you report an error, please provide at least the distro &amp; the email client you use.</p><p> Some easy ways are given in the extension.js code if you want to change read/unread icons.</p><p> Includes some code from https://extensions.gnome.org/extension/1386/notification-counter/ .</p></description>
+    <description><p>An icon beside the date in the topbar to show if there are unread emails when running your email client.</p><p> It checks the notifications in the message tray related to a new mail, no extra configuration needed, very light extension. Do not disable the notifications of your default email client !</p><p> *** It is not a standalone mail checker, you need your email client to be running. *** Please check that the xdg-utils package is installed.</p><p>  Email clients supported at the moment are : Thunderbird, Evolution, Geary, Mailspring. Please ask here to add the client you need. If you report an error, please provide at least the distro &amp;amp; the email client you use.</p><p> Includes some code from https://extensions.gnome.org/extension/1386/notification-counter/ .</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1505/new-mail-indicator/</url>
@@ -10912,7 +10912,7 @@
     <url type="homepage">https://extensions.gnome.org/extension/1276/night-light-slider/</url>
     <screenshots>
       <screenshot type="default">
-        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1276_6JtsuQh.png</image>
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1276_gNya1IO.png</image>
       </screenshot>
     </screenshots>
     <releases>
@@ -14161,7 +14161,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="25"/>
+      <release version="28"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -15689,8 +15689,8 @@
   </component>
   <component type="shell-extension">
     <id>unblank_sun.wxg_gmail.com</id>
-    <name>Unblank screen saver</name>
-    <description><p>Unblank screen when screen saver becomes active. </p><p> After you install extension, the extension will become enable. If you want to disable extension, you need to delete this extension or go to this extension settings to turn off switch.</p></description>
+    <name>Unblank lock screen</name>
+    <description><p>Unblank lock screen. </p><p> After you install this extension, the extension will be enabled by default. If you want to disable this extension, you need to delete this extension or go to this extension settings to turn off switch.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1414/unblank/</url>
@@ -15773,7 +15773,7 @@
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/413/dash-hotkeys/</url>
     <releases>
-      <release version="20"/>
+      <release version="21"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -15801,14 +15801,14 @@
   </component>
   <component type="shell-extension">
     <id>unlockDialogBackground_sun.wxg_gmail.com</id>
-    <name>Unlock dialog background</name>
-    <description><p>Change unlock dialog background. You can change background picture from extension settings. If you use Ubuntu, install package gir1.2-clutter-1.0 first.</p></description>
+    <name>Lock screen background</name>
+    <description><p>Change lock screen background. If you use Ubuntu, install package gir1.2-clutter-1.0 first.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1476/unlock-dialog-background/</url>
     <screenshots>
       <screenshot type="default">
-        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1476.png</image>
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1476_vcVAIgh.png</image>
       </screenshot>
     </screenshots>
     <releases>

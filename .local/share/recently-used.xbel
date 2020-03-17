@@ -161,12 +161,17 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/maksim/Lesson1/IdealWeight.rb" added="2020-03-11T04:59:01Z" modified="2020-03-11T04:59:01Z" visited="1969-12-31T23:59:59Z">
+  <bookmark href="file:///home/maksim/Lesson1/IdealWeight.rb" added="2020-03-11T04:59:01Z" modified="2020-03-11T14:14:55Z" visited="1969-12-31T23:59:59Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/x-ruby"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
         <bookmark:applications>
           <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2020-03-11T04:59:01Z" count="1"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-03-11T14:14:50Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;org.gnome.gedit %u&apos;" modified="2020-03-11T14:14:55Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -197,6 +202,80 @@
         <mime:mime-type type="application/x-ruby"/>
         <bookmark:applications>
           <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2020-03-11T05:44:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/maksim/.gitignore." added="2020-03-12T04:31:47Z" modified="2020-03-12T04:58:30Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-03-12T04:31:47Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;org.gnome.gedit %u&apos;" modified="2020-03-12T04:58:30Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/maksim/Lesson2/months.rb" added="2020-03-17T04:52:52Z" modified="2020-03-17T04:52:52Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ruby"/>
+        <bookmark:applications>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2020-03-17T04:52:52Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/maksim/Lesson2/numbers_10_to_100.rb" added="2020-03-17T05:06:29Z" modified="2020-03-17T05:06:29Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ruby"/>
+        <bookmark:applications>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2020-03-17T05:06:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/maksim/Lesson2/phi_numbers.rb" added="2020-03-17T05:13:48Z" modified="2020-03-17T05:13:48Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ruby"/>
+        <bookmark:applications>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2020-03-17T05:13:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/maksim/Lesson2/vowel_letters.rb" added="2020-03-17T06:27:38Z" modified="2020-03-17T06:27:38Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ruby"/>
+        <bookmark:applications>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2020-03-17T06:27:38Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/maksim/Lesson2/date_index.rb" added="2020-03-17T06:42:44Z" modified="2020-03-17T06:42:44Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ruby"/>
+        <bookmark:applications>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2020-03-17T06:42:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/maksim/Lesson2/but_sum.rb" added="2020-03-17T07:10:19Z" modified="2020-03-17T07:10:19Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ruby"/>
+        <bookmark:applications>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2020-03-17T07:10:19Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

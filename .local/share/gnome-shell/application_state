@@ -1,11 +1,9 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="update-manager.desktop" score="0" last-seen="1583905232"/>
-    <application id="org.gnome.Nautilus.desktop" score="85" last-seen="1584420701"/>
-    <application id="org.gnome.Shell.PortalHelper.desktop" score="124" last-seen="1583935840"/>
-    <application id="org.gnome.Terminal.desktop" score="15027" last-seen="1584457176"/>
-    <application id="org.gnome.gedit.desktop" score="236" last-seen="1583987638"/>
-    <application id="atom.desktop" score="2415" last-seen="1584457168"/>
+    <application id="org.gnome.Nautilus.desktop" score="86" last-seen="1584596568"/>
+    <application id="org.gnome.Terminal.desktop" score="15854" last-seen="1584603219"/>
+    <application id="update-manager.desktop" score="0" last-seen="1584510161"/>
+    <application id="atom.desktop" score="11033" last-seen="1584603216"/>
   </context>
 </application-state>

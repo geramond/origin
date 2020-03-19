@@ -5287,7 +5287,7 @@
   <component type="shell-extension">
     <id>dash-to-panel_jderose9.github.com</id>
     <name>Dash to Panel</name>
-    <description><p>An icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications.</p><p>For a more traditional experience, you may also want to use Tweak Tool to enable Windows &amp;amp;amp;amp;amp;gt; Titlebar Buttons &amp;amp;amp;amp;amp;gt; Minimize &amp;amp;amp;amp;amp;amp; Maximize.</p><p>For the best support, please report any issues on Github. Dash-to-panel is developed and maintained by @jderose9 and @charlesg99.</p></description>
+    <description><p>An icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications.</p><p>For a more traditional experience, you may also want to use Tweak Tool to enable Windows &gt; Titlebar Buttons &gt; Minimize &gt; Maximize.</p><p>For the best support, please report any issues on Github. Dash-to-panel is developed and maintained by @jderose9 and @charlesg99.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1160/dash-to-panel/</url>
@@ -6911,7 +6911,7 @@
   <component type="shell-extension">
     <id>files-view_argonauta.framagit.org</id>
     <name>Files View</name>
-    <description><p>A files view for GNOME Shell.</p><p>This extension displays a “Files” view similar to the Applications view, with the conveniences of a file manager. It is accessed through the combination SUPER + F.</p></description>
+    <description><p>A files view for GNOME Shell. This extension displays a “Files” view similar to the Applications view, with the conveniences of a file manager. It is accessed through the combination SUPER + F.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1395/files-view/</url>
@@ -7742,6 +7742,9 @@
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1089/go-to-last-workspace/</url>
+    <releases>
+      <release version="5"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -14971,7 +14974,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="151"/>
+      <release version="152"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>

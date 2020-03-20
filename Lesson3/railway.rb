@@ -111,18 +111,23 @@ class Train
   def set_route(route)
     if route.class == Route
       @route = route
+      @current_station_index = 0
       @current_station = route.stations[0]
     else
       puts "Error! This route doesn`t exist"
     end
   end
 
+#  def current_station
+#    route.station.each do |station|
+#      if station == @current_station
+#        puts @current_station.name
+#      end
+#    end
+#  end
+
   def current_station
-    route.station.each do |station|
-      if station == @current_station
-        puts @current_station.name
-      end
-    end
+    @route.stations[@current_station_index]
   end
 
   def move_to_station(station)

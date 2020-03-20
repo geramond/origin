@@ -343,3 +343,14 @@ cd ~
 git add .
 git commit -m "Lesson3"
 git push
+ls
+pwd
+git add .
+ls -a
+ls
+ls -a
+git add .
+git status --ignored
+git add .
+git commit -m "Lesson3"
+git push

@@ -1,5 +1,6 @@
 class Station
   attr_accessor :name, :trains
+
   def initialize(name)
     @name = name
     @trains = []
@@ -17,8 +18,7 @@ class Station
     end
   end
 
-  def get_trains(type=nil)
-
+  def get_trains(type)
     if type.nil?
       @trins.each do |train|
         puts train
@@ -52,7 +52,7 @@ class Route
     @stations.delete(station)
   end
 
-  def get_stations
+  def to_s
     print 'Stations list: '
     @stations.each do |station|
       print "#{station.name}"
@@ -113,7 +113,15 @@ class Train
       @route = route
       @current_station = route.stations[0]
     else
-      puts "Error! This rout doesn`t exist"
+      puts "Error! This route doesn`t exist"
+    end
+  end
+
+  def current_station
+    route.station.each do |station|
+      if station == @current_station
+        puts @current_station.name
+      end
     end
   end
 
@@ -122,17 +130,22 @@ class Train
   end
 
   def next_station
+    if @route.index(@current_station) + 1 != nil
     @next_station = @route[@route.index(@current_station) + 1]
     puts @next_station.name
+    else
+      puts 'Error! Next station doesn`t exit!'
+    end
   end
 
   def back_station
+    if @route.index(@current_station) - 1 != nil
     @back_station = @route[@route.index(@current_station) - 1]
     puts @back_station.name
+    else
+      puts 'Error! Back station doesn`t exit!'
+    end
   end
 
-  def current_station
-    puts @current_station.name
-  end
 end
 end

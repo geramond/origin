@@ -300,4 +300,18 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/maksim/.gitignore" added="2020-03-20T06:28:45Z" modified="2020-03-20T06:37:48Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-03-20T06:28:45Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;org.gnome.gedit %u&apos;" modified="2020-03-20T06:37:48Z" count="46"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

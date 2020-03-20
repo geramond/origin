@@ -1,2 +1,27 @@
 # Ignore Atom folder
 .atom/*
+
+# Ignore folders
+.cache/*
+.config/*
+.Desktop/*
+.Documents/*
+.Downloads/*
+.gem/*
+.git/*
+.gnupg/*
+.local/*
+.mozilla/*
+.Music/*
+.Pictures/*
+.pki/*
+.Public/*
+.rvm/*
+.snap/*
+.ssh/*
+.Templates/*
+.Videos/*
+
+
+
+

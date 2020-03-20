@@ -334,3 +334,12 @@ cd ~
 git add .
 git commit -m "Lesson2"
 git push
+ls
+ls -a
+cd Lesson3
+ls
+ruby railway.rb 
+cd ~
+git add .
+git commit -m "Lesson3"
+git push

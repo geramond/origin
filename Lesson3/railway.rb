@@ -111,8 +111,7 @@ class Train
   def set_route(route)
     if route.class == Route
       @route = route
-      @current_station_index = 0
-      @current_station = route.stations[0]
+      #@current_station = route.stations[0]
     else
       puts "Error! This route doesn`t exist"
     end
@@ -127,26 +126,30 @@ class Train
 #  end
 
   def current_station
-    @route.stations[@current_station_index]
+    #@route.stations[@current_station_index]
+    @route.stations.detect {|station| station.trains.include?(self)}
   end
 
   def move_to_station(station)
-    @current_station = station
+    #@current_station = station
+    station.current_station
   end
 
   def next_station
-    if @route.index(@current_station) + 1 != nil
-    @next_station = @route[@route.index(@current_station) + 1]
-    puts @next_station.name
+    #if @route.index(@current_station) + 1 != nil
+    if @route.current_station + 1 != nil
+      @next_station = @route[@route.current_station + 1]
+      puts @next_station.name
     else
       puts 'Error! Next station doesn`t exit!'
     end
   end
 
   def back_station
-    if @route.index(@current_station) - 1 != nil
-    @back_station = @route[@route.index(@current_station) - 1]
-    puts @back_station.name
+    #if @route.index(@current_station) - 1 != nil
+    if @route.current_station - 1 != nil
+      @back_station = @route[@route.current_station - 1]
+      puts @back_station.name
     else
       puts 'Error! Back station doesn`t exit!'
     end

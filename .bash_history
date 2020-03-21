@@ -354,3 +354,7 @@ git status --ignored
 git add .
 git commit -m "Lesson3"
 git push
+pwd
+git add .
+git commit -m "Lesson3"
+git push

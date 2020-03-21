@@ -2287,7 +2287,7 @@
   <component type="shell-extension">
     <id>SomaFm-Radio_alireza6677.gmail.com</id>
     <name>SomaFm internet radio</name>
-    <description><p>Listen to SomaFm free internet radio using Gnome</p><p>* Featues: - 32 Channels - Volume slider - Favorites menu - Good sound quality - Supports most gnome-shell versions - Channel logos</p><p></p><p>* Requirements: - Gstreamer + Plugins:     You need to install &apos;gstreamer&apos; and multimedia codecs and &apos;plugins&apos; for your distro.</p></description>
+    <description><p>Listen to SomaFm free internet radio using Gnome</p><p>* Featues: - 32 Channels - Volume slider - Favorites menu - Good sound quality - Supports most gnome-shell versions - Channel logos</p><p>* Requirements: - Gstreamer and plugins: You need to install &apos;gstreamer&apos; and multimedia codecs/plugins for your distro.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1237/somafm-internet-radio/</url>
@@ -5393,7 +5393,7 @@
   <component type="shell-extension">
     <id>desk-changer_eric.gach.gmail.com</id>
     <name>Desk Changer</name>
-    <description><p>Simple wallpaper changer with multiple profile support. Supports integration into the system menu or its own panel icon. The daemon is written in Python and runs independently of the extension.</p></description>
+    <description><p>Simple wallpaper changer with multiple profile support. Supports integration into the system menu or its own panel icon. The daemon was previously written in Python, separately of the extension. Now it is integrated into the extension with the ability to run in the background.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1131/desk-changer/</url>

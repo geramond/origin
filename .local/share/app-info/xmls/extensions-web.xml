@@ -828,7 +828,7 @@
   <component type="shell-extension">
     <id>GmailMessageTray_shuming0207.gmail.com</id>
     <name>Gnome Email Notifications</name>
-    <description><p>Shows Gmail and Outlook notifications in Gnome Message Tray using Gnome Online Accounts Formerly Gmail Message Tray.</p></description>
+    <description><p>Shows Gmail and Outlook notifications in Gnome Message Tray using Gnome Online Accounts</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1230/gmail-message-tray/</url>
@@ -837,6 +837,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1230.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="18"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -846,7 +849,7 @@
   <component type="shell-extension">
     <id>GoogleEarthWallpaper_neffo.github.com</id>
     <name>Google Earth Wallpaper</name>
-    <description><p>Lightweight GNOME shell extension to set your wallpaper to a random photo from the curated Google Earth collection (2500 photos).</p><p>*Disclaimer*: this extension is unofficial and not affiliated with Google in any way. Images are protected by copyright and are licensed only for use as wallpapers.</p><p>See also my other extension, Bing Wallpaper Changer (https://github.com/neffo/bing-wallpaper-gnome-extension) which was itself based on the NASA APOD extension by Elinvention (https://github.com/Elinvention).</p><p>Features: * Fetches a random Google Earth wallpaper and sets as both lock screen and desktop wallpaper * User selectable refresh intervals (default is once per day) * Optional: keep images or clean up after (later is default) * View location on Google Maps, Bing Maps, Gnome Maps, OpenStreetMaps (in v2+) * In-extension map view (in v3+ - note this needs WebKitGTK+ GIR packages installed to function - gir1.2-webkit-3.0 in Ubuntu) *  German, Dutch and Chinese translations</p><p>Please report any bugs or suggestions to extension GitHub page below.</p></description>
+    <description><p>Lightweight GNOME shell extension to set your wallpaper to a random photo from the curated Google Earth collection (2604 locations).</p><p>*Disclaimer*: this extension is unofficial and not affiliated with Google in any way. Images are protected by copyright and are licensed only for use as wallpapers.</p><p>See also my other extension, Bing Wallpaper Changer (https://github.com/neffo/bing-wallpaper-gnome-extension) which was itself based on the NASA APOD extension by Elinvention (https://github.com/Elinvention).</p><p>Features: * Fetches a random Google Earth wallpaper and sets as both lock screen and desktop wallpaper * User selectable refresh intervals (default is once per day) * Optional: keep images or clean up after (later is default) * View location on Google Maps, Bing Maps, Gnome Maps, OpenStreetMaps (in v2+) * In-extension map view (in v3+ - note this needs WebKitGTK+ GIR packages installed to function - gir1.2-webkit-3.0 in Ubuntu) *  German, Dutch and Chinese translations</p><p>Please report any bugs or suggestions to extension GitHub page below.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1295/google-earth-wallpaper/</url>
@@ -2692,7 +2695,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="27"/>
+      <release version="31"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -2910,7 +2913,7 @@
     <url type="homepage">https://extensions.gnome.org/extension/358/activities-configurator/</url>
     <screenshots>
       <screenshot type="default">
-        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_358_MI3beq4.png</image>
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_358_amdN2RE.png</image>
       </screenshot>
     </screenshots>
     <releases>
@@ -3834,7 +3837,7 @@
     <url type="homepage">https://extensions.gnome.org/extension/595/autohide-battery/</url>
     <screenshots>
       <screenshot type="default">
-        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_595_2.png</image>
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_595_cMIKY1g.png</image>
       </screenshot>
     </screenshots>
     <metadata>
@@ -4354,7 +4357,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="6"/>
+      <release version="7"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -5137,7 +5140,7 @@
   <component type="shell-extension">
     <id>currencyconverter_david.bonnal.gmail.com</id>
     <name>Currency Converter</name>
-    <description><p>Easy and fast way to convert your favorite currencies, via a short custom list of your most frequent currencies, and also the option to enter them manually. Requires a free registration on currencylayer.com and entering your own private key in the preferences.</p></description>
+    <description><p>Discontinued - unfortunately due to lack of time on my side and the recurrent updates of Gnome Shell breaking old implementations (with lack of documentation for developers), I can no longer maintain this extension. Please feel free to fork or contribute with Pull Requests.</p><p>Easy and fast way to convert your favorite currencies, via a short custom list of your most frequent currencies, and also the option to enter them manually. Requires a free registration on currencylayer.com and entering your own private key in the preferences.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/984/currency-converter/</url>
@@ -5297,7 +5300,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="30"/>
+      <release version="33"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -5403,7 +5406,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="17"/>
+      <release version="18"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -6047,7 +6050,7 @@
     <url type="homepage">https://extensions.gnome.org/extension/964/do-not-disturb-button/</url>
     <screenshots>
       <screenshot type="default">
-        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_964_Y4T4xsK.png</image>
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_964_3R4fh4P.png</image>
       </screenshot>
     </screenshots>
     <releases>
@@ -6182,6 +6185,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1283.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="5"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -6191,7 +6197,7 @@
   <component type="shell-extension">
     <id>duolingostatus_david.bonnal.gmail.com</id>
     <name>Duolingo Status</name>
-    <description><p>Easy way to remember to do your Duolingo, by displaying a red owl icon in your top bar. The red color or the icon itself goes off once your daily goal is reached. Useful information about your Duolingo account, and a shortcut to the website are also at your disposition.</p></description>
+    <description><p>Discontinued - unfortunately due to lack of time on my side and the recurrent updates of Gnome Shell breaking old implementations (with lack of documentation for developers), I can no longer maintain this extension. Please feel free to fork or contribute with Pull Requests.</p><p>Easy way to remember to do your Duolingo, by displaying a red owl icon in your top bar. The red color or the icon itself goes off once your daily goal is reached. Useful information about your Duolingo account, and a shortcut to the website are also at your disposition.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/983/duolingo-status/</url>
@@ -6700,7 +6706,7 @@
     <url type="homepage">https://extensions.gnome.org/extension/1137/gnome-shell-extension-reloader/</url>
     <screenshots>
       <screenshot type="default">
-        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1137_ttCg8zW.png</image>
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1137_Qg0BjcY.png</image>
       </screenshot>
     </screenshots>
     <releases>
@@ -6911,7 +6917,7 @@
   <component type="shell-extension">
     <id>files-view_argonauta.framagit.org</id>
     <name>Files View</name>
-    <description><p>A files view for GNOME Shell. This extension displays a “Files” view similar to the Applications view, with the conveniences of a file manager. It is accessed through the combination SUPER + F.</p></description>
+    <description><p>A files view for GNOME Shell.</p><p>This extension displays a “Files” view similar to the Applications view, with the conveniences of a file manager. It is accessed through the combination SUPER + F.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1395/files-view/</url>
@@ -6921,7 +6927,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="5"/>
+      <release version="6"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -7229,7 +7235,7 @@
   <component type="shell-extension">
     <id>fullbattery_categulario.tk</id>
     <name>Full Battery indicator</name>
-    <description><p>Notifies when battery is full. Like when your computer notifies low battery, but for full battery.</p></description>
+    <description><p>Notifies when battery is full</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1466/full-battery-indicator/</url>
@@ -7304,7 +7310,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="33"/>
+      <release version="34"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -8260,7 +8266,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="11"/>
+      <release version="12"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -8799,6 +8805,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_545_3pF5sZG.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="68"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -8862,7 +8871,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="7"/>
+      <release version="8"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -9276,7 +9285,7 @@
   <component type="shell-extension">
     <id>isshu_bo32.github.com</id>
     <name>IsshU</name>
-    <description><p>SSH utility. Allows the user saving a history of the few last connections, keep a list of favourites, but also use the results of Nmap. For the latter, it requires Nmap to be installed.</p></description>
+    <description><p>Discontinued - unfortunately due to lack of time on my side and the recurrent updates of Gnome Shell breaking old implementations (with lack of documentation for developers), I can no longer maintain this extension. Please feel free to fork or contribute with Pull Requests.</p><p>SSH utility. Allows the user saving a history of the few last connections, keep a list of favourites, but also use the results of Nmap. For the latter, it requires Nmap to be installed.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1284/isshu/</url>
@@ -9984,6 +9993,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_675_pwByxQI.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="21"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -10540,9 +10552,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1379_m5wR0a8.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="13"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -10673,7 +10682,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="18"/>
+      <release version="19"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -10754,6 +10763,27 @@
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
       <value key="shell-extensions::uuid">nepcal@amitgaru.com.np</value>
+    </metadata>
+  </component>
+  <component type="shell-extension">
+    <id>netatmo-station_aurelien.bras.gmail.com</id>
+    <name>netatmo station</name>
+    <description><p>Extension to display data from your NetAtmo station</p></description>
+    <icon type="stock">application-x-addon-symbolic</icon>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://extensions.gnome.org/extension/1512/netatmo-station/</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1512_IHGXFpO.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release version="3"/>
+    </releases>
+    <metadata>
+      <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
+      <value key="GnomeSoftware::Plugin">shell-extensions</value>
+      <value key="shell-extensions::uuid">netatmo-station@aurelien.bras.gmail.com</value>
     </metadata>
   </component>
   <component type="shell-extension">
@@ -11183,7 +11213,7 @@
   <component type="shell-extension">
     <id>nothing-to-say_extensions.gnome.wouter.bolsterl.ee</id>
     <name>Nothing to say</name>
-    <description><p>Unmute the microphone only when you have something to say. Keywords: audio, call, conference, microphone, mute, noise, noisy, push to talk, record, recording, silence, silent, sound, speak, talk, teleconference, unmute, volume, walkie-talkie</p></description>
+    <description><p>Unmute the microphone only when you have something to say.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1113/nothing-to-say/</url>
@@ -11192,6 +11222,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1113_hVKdOFy.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="4"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -11441,7 +11474,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="99"/>
+      <release version="100"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -12972,24 +13005,6 @@
     </metadata>
   </component>
   <component type="shell-extension">
-    <id>removeusername_alex.derhofbauer.at</id>
-    <name>Remove User Name</name>
-    <description><p>** Not needed in Gnome 3.8 (can be found in settings / privacy). **</p><p>Removes the name of the user from the top panel preserving space.</p><p>This is probably the most simple (stupid) solution one could come up with, but it works for me.</p></description>
-    <icon type="stock">application-x-addon-symbolic</icon>
-    <project_license>GPL-2.0+</project_license>
-    <url type="homepage">https://extensions.gnome.org/extension/106/remove-user-name/</url>
-    <screenshots>
-      <screenshot type="default">
-        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_106.png</image>
-      </screenshot>
-    </screenshots>
-    <metadata>
-      <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
-      <value key="GnomeSoftware::Plugin">shell-extensions</value>
-      <value key="shell-extensions::uuid">removeusername@alex.derhofbauer.at</value>
-    </metadata>
-  </component>
-  <component type="shell-extension">
     <id>replace-system-alt-switcher_emilio.sanchez.gmail.com</id>
     <name>Replace System Alt Switcher</name>
     <description><p>Remove the powerOff/suspend alt switcher and replace it with two buttons (Suspend and PowerOff)</p></description>
@@ -13661,7 +13676,7 @@
   <component type="shell-extension">
     <id>shell-volume-mixer_derhofbauer.at</id>
     <name>Volume Mixer</name>
-    <description><p>Applet allowing separate configuration of pulseaudio mixers.</p><p>Shell Volume Mixer is an extension for GNOME Shell allowing separate configuration of PulseAudio devices and output switches. It features a profile switcher to quickly switch between pinned profiles and devices.</p><p>Middle mouse click on a slider mutes the selected stream.</p><p>Please file bugs and feature requests on the GitHub page.</p></description>
+    <description><p>Applet allowing separate configuration of PulseAudio mixers.</p><p>Shell Volume Mixer is an extension for GNOME Shell allowing separate configuration of PulseAudio devices and output switches. It features a profile switcher to quickly switch between pinned profiles and devices.</p><p>Middle mouse click on a slider mutes the selected stream.</p><p>Please file bugs and feature requests on the GitHub page.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/858/volume-mixer/</url>
@@ -14916,6 +14931,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1419.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="8"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -15512,7 +15530,7 @@
   <component type="shell-extension">
     <id>transparent-window-moving_noobsai.github.com</id>
     <name>Transparent Window Moving</name>
-    <description><p>Makes the window semi-transparent when moving or resizing</p></description>
+    <description><p>Makes a window semi-transparent when moving or resizing</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1446/transparent-window-moving/</url>
@@ -15522,7 +15540,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="4"/>
+      <release version="5"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -15763,7 +15781,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="37"/>
+      <release version="39"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -16077,7 +16095,7 @@
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1207/vscode-search-provider/</url>
     <releases>
-      <release version="14"/>
+      <release version="15"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -16178,7 +16196,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="4"/>
+      <release version="6"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -16598,6 +16616,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1007.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="8"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -17089,7 +17110,7 @@
   </component>
   <component type="shell-extension">
     <id>world_clock_ailin.nemui</id>
-    <name>Panel World Clock</name>
+    <name>Panel World Clock for 3.14</name>
     <description><p>A world clock for the panel or the panel calendar</p><p>dependency: typelib-1_0-GWeather-3_0 / gir1.2-gweather-3.0 UTC clock? add Eiðar and rename to UTC.</p><p>Gnome 3.16 or newer? https://extensions.gnome.org/extension/946/panel-world-clock-lite/</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>

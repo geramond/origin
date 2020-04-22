@@ -1,8 +1,11 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="org.gnome.Nautilus.desktop" score="1" last-seen="1585893351"/>
-    <application id="org.gnome.Terminal.desktop" score="15967" last-seen="1585901759"/>
-    <application id="atom.desktop" score="14224" last-seen="1585901757"/>
+    <application id="firefox.desktop" score="0" last-seen="1587205805"/>
+    <application id="org.gnome.Nautilus.desktop" score="10" last-seen="1587113971"/>
+    <application id="org.gnome.Terminal.desktop" score="17013" last-seen="1587458385"/>
+    <application id="rhythmbox.desktop" score="0" last-seen="1587113976"/>
+    <application id="atom.desktop" score="22096" last-seen="1587458377"/>
+    <application id="update-manager.desktop" score="32" last-seen="1587395353"/>
   </context>
 </application-state>

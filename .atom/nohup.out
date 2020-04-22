@@ -1,7 +1,7 @@
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
-Command 'env' is available in the following places
+bash: не удаётся задать группу процесса терминала (-1): Неприменимый к данному устройству ioctl
+bash: этот командный процессор не может управлять заданиями
+Команда 'env' доступна в следующих местах
  * /bin/env
  * /usr/bin/env
-The command could not be located because '/usr/bin:/bin' is not included in the PATH environment variable.
-env: command not found
+Команда не может быть найдена, потому что '/bin:/usr/bin' не включена в переменную окружения  PATH
+env: команда не найдена

@@ -362,3 +362,28 @@ pwd
 git add .
 git commit -m "Lesson3"
 git push
+irb
+irb -r ./main.rb
+sudo apt-get install console-cyrillic
+sudo apt-get update
+sudo apt-get install language-pack-ru
+sudo apt-get install language-pack-gnome-ru
+sudo apt-get install hyphen-ru mythes-ru hunspell-ru
+ls
+pwd
+/etc/default/locale
+locale
+locale -a
+LANG=ru_RU.utf8
+locale -a
+locale
+nano /etc/default/locale
+sudo nano /etc/default/locale
+ls
+cd Lesson4
+ls
+ruby main.rb
+1
+2
+3
+ruby main.rb

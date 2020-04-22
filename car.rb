@@ -28,6 +28,4 @@ attr_reader :engine_volume
     self.speed = 50
     beep
   end
-
-
 end

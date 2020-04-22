@@ -233,3 +233,33 @@ cfr-doorhanger-milestone-heading =
   }
 cfr-doorhanger-milestone-ok-button = See All
   .accesskey = S
+
+## External string for cfr-whatsnew-searchbar-body-topsites
+cfr-whatsnew-searchbar-body-topsites = Now, just select the address bar, and a box will expand with links to your top sites.
+
+## External string for cfr-whatsnew-lockwise-header
+cfr-whatsnew-lockwise-header =  Easily create secure passwords
+
+## External string for cfr-whatsnew-lockwise-body
+cfr-whatsnew-lockwise-body = It’s difficult to think of unique, secure passwords for every account. When creating a password, select the password field to use a secure, generated password from { -brand-shorter-name }.
+
+## External string for cfr-whatsnew-lockwise-icon-alt
+cfr-whatsnew-lockwise-icon-alt = { -lockwise-brand-short-name } icon
+
+## External string for cfr-whatsnew-passwords-header
+cfr-whatsnew-passwords-header = Get alerts about vulnerable passwords
+
+## External string for cfr-whatsnew-passwords-body
+cfr-whatsnew-passwords-body = Hackers know people reuse the same passwords. If you used the same password on multiple sites, and one of those sites was in a data breach, you’ll see an alert in { -lockwise-brand-short-name } to change your password on those sites.
+
+## External string for cfr-whatsnew-passwords-icon-alt
+cfr-whatsnew-passwords-icon-alt = Vulnerable password key icon
+
+## External string for cfr-whatsnew-pip-fullscreen-header
+cfr-whatsnew-pip-fullscreen-header = Take picture-in-picture fullscreen
+
+## External string for cfr-whatsnew-pip-fullscreen-body
+cfr-whatsnew-pip-fullscreen-body = When you pop a video into a floating window, you can now double-click on that window to go fullscreen.
+
+## External string for cfr-whatsnew-pip-fullscreen-icon-alt
+cfr-whatsnew-pip-fullscreen-icon-alt = Picture-in-picture icon

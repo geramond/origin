@@ -1,22 +1,3 @@
-a = 5
-a
-b = 10 + 5
-b
-c = 20
-c
-c = "hello"
-c
-greeting = "Hello Everyone!"
-greeting
-greeting.length
-sentence = "This is my sample sentence."
-sentence.split
-numbers = "one,two,three,four,five"
-numbers
-numbers.split
-numbers.split(",")
-greeting
-greeting.gsub("Everyone!", "Friends!")
 greeting
 greetings = greeting.gsub("Everyone!", "Friends!")
 greeting
@@ -121,3 +102,23 @@ loop do\
   input = gets.to_i\
   break if input == 0\
 end
+a = 1
+a + 1
+class Train\
+  def speed\
+    10\
+  end\
+end
+train = Train.new
+train.speed
+exit
+Train
+Test
+Truck
+Car
+car = Car.new
+car.method
+car.methods
+car.start_engine
+car.current_rpm
+car.engine_stopped?

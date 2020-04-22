@@ -51,15 +51,15 @@ class Train
   end
 
   def set_route(route)
-    if route.class == Route
+    #if route.class == Route
       @route = route
-      current_station_index = 0
+      current_station = route.stations[0]
       #@route.stations.first
       #Here I suppose we should do 'arrive train' to 'current station'
       #current_station.train_arrive(self)
-    else
-      puts "Error! This route doesn`t exist"
-    end
+    #else
+    #  puts "Error! This route doesn`t exist"
+    #end
   end
 
 #  def current_station
@@ -71,26 +71,34 @@ class Train
 #  end
 
   def current_station
-    #@route.stations[@current_station_index]
     @route.stations.detect {|station| station.trains.include?(self)}
   end
 
-  def next_station
-    current_station_index = @route.index(current_station)
-    return if current_station_index == @route.length
-    @route.stations[current_station_index + 1]
+  def current_station_index
+    @route.index(current_station)
   end
 
+  #def next_station
+  #  return if current_station_index == @route.length
+  #  @route.stations[current_station_index.to_i + 1]
+  #end
+
+  def next_station
+    @route.station_through(1, current_station)
+  end
+
+  #def back_station
+  #  return if current_station_index == 0
+  #  @route.stations[current_station_index.to_i - 1]
+  #end
+
   def back_station
-    current_station_index = @route.index(current_station)
-    return if current_station_index == 0
-    @route.stations[current_station_index - 1]
+    @route.station_through(-1, current_station)
   end
 
   def move_forward
     return unless next_station
     destination_station = next_station
-
     current_station.train_leave(self)
     destination_station.train_arrive(self)
   end
@@ -98,7 +106,6 @@ class Train
   def move_back
     return unless back_station
     destination_station = back_station
-
     current_station.train_leave(self)
     destination_station.train_arrive(self)
 end

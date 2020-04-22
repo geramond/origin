@@ -10,7 +10,7 @@ class Station
   end
 
   def train_arrive(train)
-    @trains << train
+    @trains << train unless @trains.include?(train)
   end
 
   def train_leave(train)
@@ -30,6 +30,14 @@ class Station
       @trains.each do |train|
         puts train if train.train_type == type
     end
+  end
+
+  def trains_count(type = nil)
+    get_trains(type).count
+  end
+
+  def to_s
+    @name
   end
 end
 end

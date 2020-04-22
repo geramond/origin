@@ -209,7 +209,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="37"/>
+      <release version="42"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -419,7 +419,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="40"/>
+      <release version="41"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -549,7 +549,7 @@
   <component type="shell-extension">
     <id>EasyScreenCast_iacopodeenosee.gmail.com</id>
     <name>EasyScreenCast</name>
-    <description><p>This extension simplifies the use of the video recording function integrated in Gnome shell, allows quickly to change the various settings of the desktop recording.</p><p>https://github.com/EasyScreenCast/EasyScreenCast</p></description>
+    <description><p>This extension simplifies the use of the video recording function integrated in GNOME shell, allows quickly to change the various settings of the desktop recording.</p><p>Source code / Issue tracker:</p><p>https://github.com/EasyScreenCast/EasyScreenCast</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/690/easyscreencast/</url>
@@ -971,13 +971,13 @@
   <component type="shell-extension">
     <id>IP-Finder_linxgem33.github.com</id>
     <name>IP Finder</name>
-    <description><p>## DEVELOPMENT NOW STOPPED ##</p><p>PLEASE READ: Due to map tiles now requiring a personal API and other issues regarding some of the services which this extensions uses i.e also now requiring personal API&apos;s i am unable to maintain this extension properly  as always the source code is available on my gitlab account if anyone wants to carry this project on or rewrite the code etc.</p></description>
+    <description><p>## Developement Stopped ##</p><p>New Updated (all new code base) version now located here:</p><p>https://extensions.gnome.org/extension/2983/ip-finder/</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1190/ip-finder/</url>
     <screenshots>
       <screenshot type="default">
-        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1190_JhlZJWF.png</image>
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1190_tOUuy97.png</image>
       </screenshot>
     </screenshots>
     <metadata>
@@ -1024,8 +1024,8 @@
   </component>
   <component type="shell-extension">
     <id>Internet-Speed-Meter_TH3L0N3C0D3R</id>
-    <name>Internet Speed Meter</name>
-    <description><p>Simple and minimal internet speed meter for gnome shell.</p></description>
+    <name>Internet Speed Meter (Deprecated)</name>
+    <description><p>New version: https://extensions.gnome.org/extension/2980/internet-speed-meter Simple and minimal internet speed meter for gnome shell.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1461/internet-speed-meter/</url>
@@ -1193,7 +1193,7 @@
   <component type="shell-extension">
     <id>LyricsFinder_alireza6677.gmail.com</id>
     <name>Lyrics Finder</name>
-    <description><p>Finding lyrics has never been easier Just play a music!</p><p></p></description>
+    <description><p>Finding lyrics has never been easier, Just play some music!</p><p>* Features - Automatically find lyrics - Save for offline use - Modern and customizable ui - Fast search</p><p>* Donation You can donate if you like my work :)</p><p>BTC: 1KXJPJSmXUocieC3neRZEDakpzfcyumLqS BCH : qzsf6jdju8pq5l4wm6e0r7ahc2hljeyn3sldew58l8 ETHER: 0xb6178080c8f0792e6370959909199647e26b8457</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1383/lyrics-finder/</url>
@@ -1536,7 +1536,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="34"/>
+      <release version="36"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -1578,7 +1578,7 @@
   <component type="shell-extension">
     <id>PersianCalendar_oxygenws.com</id>
     <name>Persian Calendar</name>
-    <description><p>Shows Persian date in the top panel.</p><p>It shows: 1- Persian calendar 2- It can show, today is holiday or not! 3- Show notification onDayChanged! 4- Date converter between Persian, Gregorian and Lunar Hijri 5- Events: 5-1- Official solar events. 5-2- Official lunar events. 5-3- Official international events. 5-4- Traditional Persian events. 5-5- Persian personages.</p><p>Please &quot;rate&quot; here and &quot;star&quot; project in GitHub. Please open an issue in GitHub if you found something or have an idea!</p></description>
+    <description><p>Shows Persian date in the top panel.</p><p>It shows: 1- Persian calendar 2- It can show, today is a holiday or not! 3- Show notification onDayChanged! 4- Date converter between Persian, Gregorian and Lunar Hijri 5- Events: 5-1- Official solar events. 5-2- Official lunar events. 5-3- Official international events. 5-4- Traditional Persian events. 5-5- Persian personages.</p><p>Please &quot;rate&quot; here and &quot;star&quot; the project in GitHub. Please open an issue in GitHub if you&apos;ve found something or have an idea!</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/240/persian-calendar/</url>
@@ -2189,7 +2189,7 @@
   <component type="shell-extension">
     <id>ShutdownTimer_neumann</id>
     <name>ShutdownTimer</name>
-    <description><p>Shutdown the device after a specific time.</p><p>Maximum timer value und slider position can be modified in the settings.</p></description>
+    <description><p>Shutdown your device after a specific time. This extension adds a submenu to the status area.</p><p>Maximum timer value und slider position can be modified in the settings.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/792/shutdowntimer/</url>
@@ -2199,7 +2199,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="25"/>
+      <release version="26"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -2289,8 +2289,8 @@
   </component>
   <component type="shell-extension">
     <id>SomaFm-Radio_alireza6677.gmail.com</id>
-    <name>SomaFm internet radio</name>
-    <description><p>Listen to SomaFm free internet radio using Gnome</p><p>* Featues: - 32 Channels - Volume slider - Favorites menu - Good sound quality - Supports most gnome-shell versions - Channel logos</p><p>* Requirements: - Gstreamer and plugins: You need to install &apos;gstreamer&apos; and multimedia codecs/plugins for your distro.</p></description>
+    <name>SomaFM internet radio</name>
+    <description><p>Listen to SomaFm free internet radio using Gnome</p><p>* Featues: - 32 Channels - Volume slider - Favorites menu - Good sound quality - Supports most gnome-shell versions - Channel logos</p><p>* Requirements: - Gstreamer and plugins: You need to install &apos;gstreamer&apos; and multimedia codecs/plugins for your distro.</p><p>* Donation You can donate if you like my work :)</p><p>BTC: 1KXJPJSmXUocieC3neRZEDakpzfcyumLqS BCH : qzsf6jdju8pq5l4wm6e0r7ahc2hljeyn3sldew58l8 ETHER: 0xb6178080c8f0792e6370959909199647e26b8457</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1237/somafm-internet-radio/</url>
@@ -2578,6 +2578,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1031_vjuGb1h.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="25"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -3570,6 +3573,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1139_o93FTtF.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="21"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -3597,7 +3603,7 @@
   <component type="shell-extension">
     <id>arc-menu_linxgem33.com</id>
     <name>Arc Menu</name>
-    <description><p>A Traditional Application Menu for GNOME</p><p>== DEPENDENCIES ==</p><p>Please note: For ArcMenu to work properly, your GNOME Desktop must have the following dependencies installed (please see below).</p><p>sudo apt install gnome-shell-extensions gnome-menus gir1.2-gmenu-3.0</p><p>== UPGRADE ISSUES ==</p><p>If the upgrade isn&apos;t working, try uninstalling Arc Menu reloading GNOME shell and then downloading the latest version again.</p><p>Reload GNOME shell with == ALT + F2 == type &quot;r&quot; == Press Enter</p><p>== REPORTING ISSUES ==</p><p>Please Note: We do not offer support on extensions.gnome.org, so please open a issue on our GitLab issue tracker for support (Extension homepage URL below).</p><p> ArcMenu is developed and maintained by @LinxGem33 and @AndrewZaech.</p></description>
+    <description><p>A Dynamic, Traditional, Modern Menu for GNOME</p><p>== DEPENDENCIES ==</p><p>Please note: For ArcMenu to work properly, your GNOME Desktop must have the following dependencies installed (please see below).</p><p>sudo apt install gnome-shell-extensions gnome-menus gir1.2-gmenu-3.0</p><p>== UPGRADE ISSUES ==</p><p>If the upgrade isn&apos;t working, try uninstalling Arc Menu reloading GNOME shell and then downloading the latest version again.</p><p>Reload GNOME shell with == ALT + F2 == type &quot;r&quot; == Press Enter</p><p>== REPORTING ISSUES ==</p><p>Please Note: We do not offer support on extensions.gnome.org, so please open a issue on our GitLab issue tracker for support (Extension homepage URL below).</p><p> ArcMenu is developed and maintained by @LinxGem33 and @AndrewZaech.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1228/arc-menu/</url>
@@ -3729,7 +3735,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="11"/>
+      <release version="12"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -3840,6 +3846,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_595_cMIKY1g.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="16"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -4950,6 +4959,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1430_Dpr7qiI.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="4"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -5044,7 +5056,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="18"/>
+      <release version="20"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -5300,7 +5312,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="33"/>
+      <release version="35"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -6721,7 +6733,7 @@
   <component type="shell-extension">
     <id>extensions-sync_elhan.io</id>
     <name>Extensions Sync</name>
-    <description><p>Sync all extensions and their configurations across all gnome instances through gist</p></description>
+    <description><p>Sync all extensions and their configurations across all gnome instances</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1486/extensions-sync/</url>
@@ -7801,7 +7813,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="40"/>
+      <release version="43"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -7857,6 +7869,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1043.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="11"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -8806,7 +8821,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="68"/>
+      <release version="69"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -10900,7 +10915,7 @@
   <component type="shell-extension">
     <id>new-mail-indicator_fthx</id>
     <name>New Mail Indicator</name>
-    <description><p>An icon beside the date in the topbar to show if there are unread emails when running your email client.</p><p> It checks the notifications in the message tray related to a new mail, no extra configuration needed, very light extension. Do not disable the notifications of your default email client !</p><p> *** It is not a standalone mail checker, you need your email client to be running. *** Please check that the xdg-utils package is installed.</p><p>  Email clients supported at the moment are : Thunderbird, Evolution, Geary, Mailspring. Please ask here to add the client you need. If you report an error, please provide at least the distro &amp;amp; the email client you use.</p><p> Includes some code from https://extensions.gnome.org/extension/1386/notification-counter/ .</p></description>
+    <description><p>An icon beside the date in the topbar to show if there are unread emails when running your default email client.</p><p> It checks the notifications in the message tray related to a new mail, no extra configuration needed, very light extension. Do not disable the notifications of your default email client ! *** It is not a standalone mail checker, you need your email client to be running. *** Please check that the xdg-utils package is installed.</p><p>  Email clients supported at the moment are : Thunderbird, Evolution, Geary, Mailspring. Please ask to add the client you need. If you report an error, please provide at least the distribution and the email client you use through the github link.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1505/new-mail-indicator/</url>
@@ -10910,7 +10925,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="14"/>
+      <release version="18"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -11474,7 +11489,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="100"/>
+      <release version="102"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -11704,7 +11719,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="37"/>
+      <release version="38"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -12662,7 +12677,7 @@
   <component type="shell-extension">
     <id>randomwallpaper_iflow.space</id>
     <name>Random Wallpaper</name>
-    <description><p>Random Wallpapers for Gnome 3 is a gnome-shell extension that fetches a random wallpaper from an online source and sets it as desktop background.</p><p>Features: * Many different online sources with filters * History of previous images * Set lock screen image * Automatic renewal (Auto-Fetching)</p></description>
+    <description><p>Random Wallpapers for Gnome 3 is a gnome-shell extension that fetches a random wallpaper from an online source and sets it as desktop background.</p><p>Features: Many different online sources with filters: - Unsplash (https://unsplash.com/) - Desktoppr (https://desktoppr.co/) - Wallhaven (https://alpha.wallhaven.cc/) - Reddit (https://reddit.com) - Basically any JSON API/File (Examples) History of previous images Set lock screen image Automatic renewal (Auto-Fetching)</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1040/random-wallpaper/</url>
@@ -12672,7 +12687,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="18"/>
+      <release version="19"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -13358,7 +13373,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="10"/>
+      <release version="11"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -13550,7 +13565,7 @@
   <component type="shell-extension">
     <id>set-columns_maestroschan.fr</id>
     <name>More columns in applications view</name>
-    <description><p>Set the number of columns in the &quot;applications&quot; view (by default, the maximum is only 6)</p></description>
+    <description><p>Set the number of columns in the &quot;applications grid&quot; view (by default, the maximum is only 6)</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1305/more-columns-in-applications-view/</url>
@@ -13559,6 +13574,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1305.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="2"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -13686,7 +13704,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="30"/>
+      <release version="29"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -13804,8 +13822,8 @@
   </component>
   <component type="shell-extension">
     <id>show_applications_instead_of_overview_fawtytoo</id>
-    <name>Show Applications instead of Overview</name>
-    <description><p>The applications are shown instead of the overview.</p></description>
+    <name>Show Applications instead of Workspaces</name>
+    <description><p>The Activities button will show Applications instead of Workspaces in the Overview.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1337/show-applications-instead-of-overview/</url>
@@ -14179,7 +14197,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="28"/>
+      <release version="29"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -15197,7 +15215,7 @@
   <component type="shell-extension">
     <id>toggle-touchpad_martin.kopta.eu</id>
     <name>Toggle Touchpad</name>
-    <description><p>Switch touchpad on and off</p></description>
+    <description><p>NOT MAINTENAINED ANYMORE</p><p></p><p>Switch touchpad on and off</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/935/toggle-touchpad/</url>
@@ -15215,7 +15233,7 @@
   <component type="shell-extension">
     <id>toggle-touchscreen_martin.kopta.eu</id>
     <name>Toggle Touchscreen</name>
-    <description><p>Switch touchscreen on and off</p></description>
+    <description><p>NOT MAINTENAINED ANYMORE</p><p>Switch touchscreen on and off</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/991/toggle-touchscreen/</url>
@@ -15393,7 +15411,7 @@
   <component type="shell-extension">
     <id>touchpad-indicator_orangeshirt</id>
     <name>Touchpad Indicator</name>
-    <description><p>Automatically disable other pointing devices when an external mouse is plugged in.  Optionally, switch the touchpad, trackpoint, fingertouch, touchscreen or a pen device on and off easily from the top panel.</p><p>TouchpadIndicator-extensions.gnome.org-v33 Supports GNOME Shell 3.32 and below. See GitHub for list of known issues.</p></description>
+    <description><p>Automatically disable other pointing devices when an external mouse is plugged in. Optionally, switch the touchpad, trackpoint, fingertouch, touchscreen or a pen device on and off easily from the top panel.</p><p>TouchpadIndicator-extensions.gnome.org-v35 (Supports GNOME Shell 3.34 and below)</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/131/touchpad-indicator/</url>
@@ -15402,6 +15420,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_131_kLtEpGT.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="35"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -15493,7 +15514,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="28"/>
+      <release version="29"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -15781,7 +15802,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="39"/>
+      <release version="40"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -16001,6 +16022,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1183.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="5"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -16580,6 +16604,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1330_MtF47KS.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="8"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
